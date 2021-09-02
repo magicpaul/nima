@@ -42,12 +42,6 @@ collections:
           - label: Feature Description Column 2
             name: feature_description2
             widget: string
-          - label: Team Title
-            name: team_title
-            widget: string
-          - label: Team Description
-            name: team_description
-            widget: markdown
   - name: contact
     label: Contact
     folder: src/content/pages/contact.md
@@ -63,17 +57,17 @@ collections:
         widget: list
         fields:
           - label: Name
-            name: name
+            name: member_name
             widget: string
           - label: Location
-            name: description
+            name: member_location
             widget: text
           - label: Position
-            name: position
+            name: pmember_osition
             widget: string
           - label: Image
             name: image
-            widget: image
+            widget: member_image
   - name: events
     label: Events
     folder: src/content/_events
@@ -82,69 +76,65 @@ collections:
     preview_path: 'events/{{fields.slug}}'
     fields:
       - label: Title
-        name: title
+        name: event_title
         widget: string
       - label: Subitle
-        name: subtitle
+        name: event_subtitle
         widget: string
       - label: Category
-        name: category
+        name: event_category
         widget: string
       - label: Slug
-        name: slug
+        name: event_slug
         widget: string
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: true
       - label: Event Date
-        name: eventDate
+        name: event_eventDate
         widget: string
       - label: Post Date
-        name: postDate
+        name: event_postDate
         widget: date
       - label: Description
-        name: description
+        name: event_description
         widget: text
       - label: Image
-        name: image
+        name: event_image
         widget: image
       - label: Event date and time
-        name: whenText
+        name: event_whenText
         widget: text
       - label: Event Costs
-        name: costText
+        name: event_costText
         widget: text
       - label: Event Map
-        name: mapsEmbed
+        name: event_mapsEmbed
         widget: map
       - label: Directions
-        name: directions
+        name: event_directions
         widget: text
       - label: Speaker One Name
-        name: sp1Name
+        name: event_sp1Name
         widget: string
       - label: Speaker One Location
-        name: sp1Location
+        name: event_sp1Location
         widget: string
       - label: Speaker One Bio
-        name: sp1Location
+        name: event_sp1Location
         widget: text
       - label: Speaker One Image
-        name: sp1Img
+        name: event_sp1Img
         widget: image
       - label: Speaker One Name
-        name: sp2Name
+        name: event_sp2Name
         widget: string
       - label: Speaker One Location
-        name: sp2Location
+        name: event_sp2Location
         widget: string
       - label: Speaker One Bio
-        name: sp2Location
+        name: event_sp2Location
         widget: text
       - label: Speaker One Image
-        name: sp2Img
+        name: event_sp2Img
         widget: image
       - label: Body
-        name: body
+        name: event_body
         widget: markdown
