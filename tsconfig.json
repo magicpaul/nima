@@ -16,10 +16,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/utils/getAllPosts.js"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/lib/posts.js"]
 }

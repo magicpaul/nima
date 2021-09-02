@@ -3,7 +3,7 @@ import { getAllPosts } from 'lib/posts';
 import Layout from 'components/home/Layout';
 import BlogCard from 'components/home/BlogCard';
 import SEO from 'components/home/SEO';
-import PageHeader from 'components/home/pageHeader';
+import PageHeader from 'components/home/PageHeader';
 import { HomeAttributes } from 'interfaces/home';
 //import { EventAttributes } from 'interfaces/event';
 import Header from 'components/home/Header';

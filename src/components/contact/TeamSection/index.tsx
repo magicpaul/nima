@@ -1,5 +1,5 @@
 import { Team } from 'interfaces/home';
-import PageHeader from 'components/home/pageHeader';
+import PageHeader from '../../home/PageHeader';
 
 interface Props {
   title: string;
