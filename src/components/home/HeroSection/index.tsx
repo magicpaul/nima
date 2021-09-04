@@ -64,6 +64,9 @@ const HeroSection: React.FC<Props> = ({
             alt="Northern Ireland Ministry Assembly Header Image"
             layout="fill"
             objectFit="cover"
+            objectPosition="center center"
+            placeholder="blur"
+            blurDataURL={image}
           />
         </div>
       </div>

@@ -8,6 +8,8 @@ import SEO from 'components/home/SEO';
 import { HomeAttributes } from 'interfaces/home';
 import { EventAttributes } from 'interfaces/event';
 import Header from 'components/home/Header';
+import TicketButton from 'components/home/TicketButton';
+import Image from 'next/image';
 
 interface HomeProps {
   homeContent: { attributes: HomeAttributes };
@@ -90,23 +92,22 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
                     </div>
                   </div>
                 </div>
-                <div className="mb-8 sm:mb-0 px-4 md:pr-4 md:pl-0 sm:mt-12">
-                  <a
-                    href={ticketsLink}
-                    className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
-                  >
-                    Book Tickets
-                  </a>
-                </div>
+                <TicketButton link={ticketsLink} />
               </main>
             </div>
           </div>
-          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img
-              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-              src={image}
-              alt=""
-            />
+          <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <div className="h-64 w-full sm:h-72 md:h-96 lg:w-full lg:h-full">
+              <Image
+                src={image}
+                alt="Northern Ireland Ministry Assembly Header Image"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center center"
+                placeholder="blur"
+                blurDataURL={image}
+              />
+            </div>
           </div>
         </div>
         <section className="text-green-900 body-font bg-gray-300 bg-opacity-10">

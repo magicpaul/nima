@@ -6,4 +6,7 @@ module.exports = {
     });
     return cfg;
   },
+  images: {
+    domains: ['images.unsplash.com'],
+  },
 };
