@@ -15,75 +15,125 @@ collections:
         name: home
         file: src/content/pages/home.md
         fields:
-          - label: Title (White),
-            name: hero_title_white,
-            widget: string,
-          - label: Title (Green),
-            name: hero_title_green,
-            widget: string,
-          - label: Description,
-            name: hero_description,
-            widget: markdown,
-          - label: Image,
-            name: hero_image,
-            widget: image
-          - label: Call To Action Button Text,
-            name: hero_cta_text,
-            widget: string,
-          - label: Call To Action Button URL,
-            name: hero_cta_url,
-            widget: string,
-          - label: Feature Title,
-            name: feature_title,
+          - label: Title (White)
+            name: hero_title_white
             widget: string
-          - label: Feature Description Column 1,
-            name: feature_description1,
-            widget: string,
-          - label: Feature Description Column 2,
-            name: feature_description2,
-            widget: string,
+          - label: Title (Green)
+            name: hero_title_green
+            widget: string
+          - label: Description
+            name: hero_description
+            widget: markdown
+          - label: Image
+            name: hero_image
+            widget: image
+          - label: Call To Action Button Text
+            name: hero_cta_text
+            widget: string
+          - label: Call To Action Button URL
+            name: hero_cta_url
+            widget: strin
+          - label: Feature Title
+            name: feature_title
+            widget: string
+          - label: Feature Description Column 1
+            name: feature_description1
+            widget: string
+          - label: Feature Description Column 2
+            name: feature_description2
+            widget: string
       - name: contact
         label: Contact
         file: src/content/pages/contact.md
         fields:
-          - label: Title,
-            name: team_title,
+          - label: Title
+            name: team_title
             widget: string
-          - label: Description,
-            name: team_description,
+          - label: Description
+            name: team_description
             widget: markdown
-          - label: Steering Group Members,
-            name: member_list,
-            widget: list,
+          - label: Steering Group Members
+            name: team
+            widget: list
             fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Location, name: location, widget: text }
-              - { label: Position, name: position, widget: string }
-              - { label: Image, name: image, widget: image }
+              - label: Name
+                name: name
+                widget: string
+              - label: Location
+                name: location
+                widget: text
+              - label: Position
+                name: position
+                widget: string
+              - label: Image
+                name: image
+                widget: image
   - name: events
     label: Events
     folder: src/content/_events
     create: true
-    preview_path: 'events/{{fields.slug}}'
+    preview_path: 'events/{{fields.slug)}'
     fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Subtitle, name: subtitle, widget: string }
-      - { label: Category, name: category, widget: string }
-      - { label: Slug, name: slug, widget: string }
-      - { label: Date, name: eventDate, widget: string }
-      - { label: Post Date, name: postDate, widget: date }
-      - { label: Description, name: description, widget: text }
-      - { label: Image, name: image, widget: image }
-      - { label: Details of date and time, name: whenText, widget: text }
-      - { label: Details of costs, name: costText, widget: text }
-      - { label: Map, name: mapsEmbed, widget: map }
-      - { label: Directions, name: directions, widget: text }
-      - { label: Speaker One Name, name: sp1Name, widget: string }
-      - { label: Speaker One Location, name: sp1Location, widget: string }
-      - { label: Speaker One Bio, name: sp1Bio, widget: text }
-      - { label: Speaker One Image, name: sp1Img, widget: image }
-      - { label: Speaker Two Name, name: sp2Name, widget: string }
-      - { label: Speaker Two Location, name: sp2Location, widget: string }
-      - { label: Speaker Two Bio, name: sp2Bio, widget: text }
-      - { label: Speaker Two Image, name: sp2Img, widget: image }
-      - { label: Body, name: body, widget: markdown }
+      - label: Title
+        name: title
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Category
+        name: category
+        widget: string
+      - label: Slug
+        name: slug
+        widget: string
+      - label: Date
+        name: eventDate
+        widget: string
+      - label: Post Date
+        name: postDate
+        widget: date
+      - label: Description
+        name: description
+        widget: text
+      - label: Image
+        name: image
+        widget: image
+      - label: Details of date and time
+        name: whenText
+        widget: text
+      - label: Details of costs
+        name: costText
+        widget: text
+      - label: Map
+        name: mapsEmbed
+        widget: map
+      - label: Directions
+        name: directions
+        widget: text
+      - label: Speaker One Name
+        name: sp1Name
+        widget: string
+      - label: Speaker One Location
+        name: sp1Location
+        widget: string
+      - label: Speaker One Bio
+        name: sp1Bio
+        widget: text
+      - label: Speaker One Image
+        name: sp1Img
+        widget: image
+      - label: Speaker Two Name
+        name: sp2Name
+        widget: string
+      - label: Speaker Two Location
+        name: sp2Location
+        widget: string
+      - label: Speaker Two Bio
+        name: sp2Bio
+        widget: text
+      - label: Speaker Two Image
+        name: sp2Img
+        widget: image
+      - label: Body
+        name: body
+        widget: markdown
