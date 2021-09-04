@@ -32,7 +32,7 @@ collections:
             widget: string
           - label: Call To Action Button URL
             name: hero_cta_url
-            widget: strin
+            widget: string
           - label: Feature Title
             name: feature_title
             widget: string
@@ -60,7 +60,7 @@ collections:
                 name: name
                 widget: string
               - label: Location
-                name: location
+                name: description
                 widget: text
               - label: Position
                 name: position
