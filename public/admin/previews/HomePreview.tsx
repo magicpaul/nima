@@ -1,6 +1,6 @@
 import { ComponentType } from 'react';
-import HeroSection from 'components/home/HeroSection';
-import FeatureSection from 'components/home/FeatureSection';
+import HeroSection from '../../../src/components/home/HeroSection';
+import FeatureSection from '../../../src/components/home/FeatureSection';
 
 const HomePreview: ComponentType<any> = ({ entry }) => {
   return (
