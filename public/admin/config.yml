@@ -5,7 +5,7 @@ backend:
   branch: master
 media_folder: public/img
 public_folder: img
-logo_url: 'https://nima-new.netlify.app/img/logo.png'
+logo_url: 'https://nima-new.netlify.app/img/logo-cms.png'
 site_url: 'https://nima-new.netlify.app'
 collections:
   - name: pages
@@ -72,7 +72,7 @@ collections:
     label: Events
     folder: src/content/_events
     create: true
-    slug: '{{slug}}'
+    slug: '{{category}}'
     preview_path: 'events/{{fields.slug}}'
     fields:
       - label: Title
@@ -84,14 +84,12 @@ collections:
       - label: Category
         name: category
         widget: string
-      - label: Slug
-        name: slug
-        widget: string
-      - label: 'Featured'
-        name: 'featured'
-        widget: 'boolean'
+        hint: 'e.g. NIMA 2019, NIMA PREACHING DAY 2018'
+      - label: Featured
+        name: featured
+        widget: boolean
         default: false
-      - label: Date
+      - label: Event Date
         name: eventDate
         widget: string
       - label: Post Date
@@ -112,7 +110,7 @@ collections:
         required: false
       - label: Map
         name: mapsEmbed
-        widget: map
+        widget: string
       - label: Directions
         name: directions
         widget: text
@@ -131,15 +129,19 @@ collections:
       - label: Speaker Two Name
         name: sp2Name
         widget: string
+        required: false
       - label: Speaker Two Location
         name: sp2Location
         widget: string
+        required: false
       - label: Speaker Two Bio
         name: sp2Bio
         widget: text
+        required: false
       - label: Speaker Two Image
         name: sp2Img
         widget: image
+        required: false
       - label: Body
         name: body
         widget: markdown
