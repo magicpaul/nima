@@ -1,0 +1,67 @@
+---
+title: Servants of the Word
+subtitle: Preaching the Gospel of Luke
+category: NIMA 2018
+slug: nima-2018
+eventDate: 12 - 13 November 2018
+postDate: 2018-05-01T16:35:06.023Z
+description: >-
+  The aim of our annual assembly is to encourage preachers. We firmly believe
+  that when the Bible is opened and taught faithfully and relevantly the voice
+  of God is heard in a living and powerful way. We therefore seek to encourage
+  those engaged in preaching to see the exacting work of expounding Scripture as
+  the pressing need in today's church. While the assembly, therefore, is mainly
+  for those in current full-time preaching ministries, others are very welcome,
+  especially students, apprentices and spouses of Christian workers.
+
+
+  Luke tells us that he wanted to provide an orderly account of the life of Jesus that would help people be more certain of the good news of God's salvation. So how do we preach this Gospel as Luke intended? How does Luke organise his material? How does it all fit together? What’s this Gospel about? And what are the tools we need to preach it faithfully? David and William will feed and encourage us from God’s Word and equip us to be servants of this Word in our ministries.
+image: img/photo-1600546706018-9e1267462ddc.jpeg
+whenText: |-
+  Monday 12 November
+  (10 a.m. to 4.30 p.m.)
+  to Tuesday 13 November 2016 (9.30 a.m. to 3.30 p.m.)
+  lunch included on both days
+costText: Event is over
+mapsEmbed: '{"type":"Point","coordinates":[-6.1172155,54.4800653]}'
+directions: "How to get there: From the M1 take the Sprucefield exit and follow
+  the signs for Hillsborough/Dublin/Newry onto the A1 dual carriageway. After 1
+  mile and at the top of the hill you will see a sign pointing right for
+  Culcavy. This road is Harrys Road. Travel for 1 mile, go straight across the
+  crossroads, and onto Aghnatrisk Road, which again is 1 mile long. At this
+  crossroads turn right – past houses and a Methodist church. Once over the
+  motorway bridge the Church is on the left – in total it's just over 3 miles
+  from Sprucefield."
+sp1Name: David Helm
+sp1Location: Holy Trinity Chicago
+sp1Bio: "David Helm serves as the lead pastor of the Hyde Park congregation of
+  Holy Trinity Church in Chicago and as Chairman of the Board of the Charles
+  Simeon Trust, an organization dedicated to the sound preaching of God's Word.
+  He also serves on the council of The Gospel Coalition. For Crossway, he
+  authored 1 & 2 Peter and Jude, The Big Picture Story Bible, and contributed to
+  Preach the Word: Essays on Expository Preaching in Honor of Kent Hughes. He
+  also authored One-to-One Bible Reading for Matthias Media, Daniel for You for
+  The Good Book Company and the 9Marks volume Expositional Preaching. David is
+  married to Lisa, and they have five children: Noah Helm (married to Julie),
+  Joanna Panner (married to Ben), Baxter, Silas, and Mariah. They also have four
+  grandchildren."
+sp1Img: img/helm-david-115x166.png
+sp2Name: William Taylor
+sp2Location: St Helen's Bishopsgate
+sp2Bio: "William Taylor grew up on a farm in Cornwall. He served in the British
+  Army as an officer in the Royal Green Jackets for five years before being
+  ordained. In 1995 he joined St Helen’s Church, Bishopsgate, in the heart of
+  the City of London, and become Rector in 1998. The ministry at St Helen’s for
+  many years has a focus on reaching the business community; there are also
+  vibrant Sunday congregations reaching amongst others, students, young workers,
+  families and internationals. William is married to Janet, and they have three
+  children – Emily, Digby and Archie. He is the author of several books:
+  Understanding the Times, Partnership, The Word One to One and Revolutionary
+  Sex and Revolutionary Work. He was a contributor on the Proclamation Bible. He
+  is also editor of the Read Mark Learn series: John, Romans and Luke (Vol 1 &
+  2)."
+sp2Img: img/taylor-william-115x172.png
+---
+The aim of our annual assembly is to encourage preachers. We firmly believe that when the Bible is opened and taught faithfully and relevantly the voice of God is heard in a living and powerful way. We therefore seek to encourage those engaged in preaching to see the exacting work of expounding Scripture as the pressing need in today's church. While the assembly, therefore, is mainly for those in current full-time preaching ministries, others are very welcome, especially students, apprentices and spouses of Christian workers.
+
+Luke tells us that he wanted to provide an orderly account of the life of Jesus that would help people be more certain of the good news of God's salvation. So how do we preach this Gospel as Luke intended? How does Luke organise his material? How does it all fit together? What’s this Gospel about? And what are the tools we need to preach it faithfully? David and William will feed and encourage us from God’s Word and equip us to be servants of this Word in our ministries.
