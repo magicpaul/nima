@@ -19,16 +19,18 @@
     "@heroicons/react": "^1.0.2",
     "@tailwindcss/typography": "0.4.1",
     "autoprefixer": "10.0.2",
+    "babel-plugin-superjson-next": "^0.3.1",
+    "gray-matter": "^4.0.2",
     "netlify-cms-app": "2.12.25",
     "next": "11.1.0",
     "postcss": "8.1.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hook-form": "7.14.0",
-    "tailwindcss": "2.0.1",
-    "gray-matter": "^4.0.2",
     "remark": "^14.0.1",
-    "remark-html": "^14.0.0"
+    "remark-html": "^14.0.0",
+    "superjson": "^1.7.5",
+    "tailwindcss": "2.0.1"
   },
   "devDependencies": {
     "@types/node": "16.7.4",
