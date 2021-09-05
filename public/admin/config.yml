@@ -27,6 +27,9 @@ collections:
           - label: Image
             name: hero_image
             widget: image
+            allow_multiple: false
+            choose_url: false
+            media_folder: '/public/img'
           - label: Call To Action Button Text
             name: hero_cta_text
             widget: string
@@ -68,6 +71,9 @@ collections:
               - label: Image
                 name: image
                 widget: image
+                allow_multiple: false
+                choose_url: false
+                media_folder: '/public/img/contact-pics'
   - name: events
     label: Events
     folder: src/content/_events
@@ -101,6 +107,9 @@ collections:
       - label: Image
         name: image
         widget: image
+        allow_multiple: false
+        choose_url: false
+        media_folder: '/public/img'
       - label: Details of date and time
         name: whenText
         widget: text
@@ -126,6 +135,9 @@ collections:
       - label: Speaker One Image
         name: sp1Img
         widget: image
+        allow_multiple: false
+        choose_url: false
+        media_folder: '/public/img'
       - label: Speaker Two Name
         name: sp2Name
         widget: string
@@ -142,6 +154,9 @@ collections:
         name: sp2Img
         widget: image
         required: false
+        allow_multiple: false
+        choose_url: false
+        media_folder: '/public/img'
       - label: Body
         name: body
         widget: markdown
