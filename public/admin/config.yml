@@ -72,7 +72,7 @@ collections:
     label: Events
     folder: src/content/_events
     create: true
-    preview_path: 'events/{{fields.slug)}'
+    preview_path: 'events/{{fields.slug}}'
     fields:
       - label: Title
         name: title
