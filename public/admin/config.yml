@@ -95,6 +95,9 @@ collections:
       - label: Event Date
         name: eventDate
         widget: string
+      - label: Tickets Link
+        name: ticketsLink
+        widget: string
       - label: Post Date
         name: postDate
         widget: datetime
