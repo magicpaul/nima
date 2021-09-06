@@ -2,42 +2,30 @@ import Head from 'next/head';
 
 const SEO = () => (
   <Head>
-    <title>NIMA | Northern Ireland Ministry Addembly</title>
+    <title>NIMA</title>
     <meta
       name="description"
-      content="A flexible landing page + blog template"
+      content="Northern Ireland Ministry Assembly"
     ></meta>
-    <meta
-      content="https://serverless.page/img/serverless-saas.png"
-      property="og:image"
-    ></meta>
+    <meta content="/img/ogimage.png" property="og:image"></meta>
     <meta
       content="http://www.niministryassembly.org.uk/"
       property="og:url"
     ></meta>
     <meta content="website" property="og:type"></meta>
+    <meta content="NIMA" property="og:title"></meta>
     <meta
-      content="NIMA || Northern Ireland Ministry Assembly"
-      property="og:title"
-    ></meta>
-    <meta
-      content="A flexible landing page + blog template"
+      content="Northern Ireland Ministry Assembly"
       property="og:description"
     ></meta>
 
     {/* Twitter */}
-    <meta
-      name="twitter:title"
-      content="NIMA || Northern Ireland Ministry Assembly"
-    ></meta>
+    <meta name="twitter:title" content="NIMA"></meta>
     <meta
       name="twitter:description"
-      content="A flexible landing page + blog template"
+      content="Northern Ireland Ministry Assembly"
     ></meta>
-    <meta
-      name="twitter:image"
-      content="https://serverless.page/img/serverless-saas.png"
-    ></meta>
+    <meta name="twitter:image" content="/img/ogimage.png"></meta>
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta name="twitter:image:alt" content="Serverless SaaS"></meta>
 
