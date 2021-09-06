@@ -3,8 +3,7 @@ backend:
   name: git-gateway
   repo: magicpaul/nima
   branch: master
-media_folder: public/img
-public_folder: /img
+media_folder: /public/img
 logo_url: 'https://nima-new.netlify.app/img/logo-cms.png'
 site_url: 'https://nima-new.netlify.app'
 collections:
@@ -29,7 +28,6 @@ collections:
             widget: image
             allow_multiple: false
             choose_url: false
-            media_folder: '/img'
           - label: Call To Action Button Text
             name: hero_cta_text
             widget: string
@@ -41,10 +39,10 @@ collections:
             widget: string
           - label: Feature Description Column 1
             name: feature_description1
-            widget: string
+            widget: text
           - label: Feature Description Column 2
             name: feature_description2
-            widget: string
+            widget: text
       - name: contact
         label: Contact
         file: src/content/pages/contact.md
@@ -73,7 +71,6 @@ collections:
                 widget: image
                 allow_multiple: false
                 choose_url: false
-                media_folder: '/img/contact-pics'
   - name: events
     label: Events
     folder: src/content/_events
@@ -109,7 +106,6 @@ collections:
         widget: image
         allow_multiple: false
         choose_url: false
-        media_folder: '/public/img'
       - label: Details of date and time
         name: whenText
         widget: text
@@ -137,7 +133,6 @@ collections:
         widget: image
         allow_multiple: false
         choose_url: false
-        media_folder: '/img'
       - label: Speaker Two Name
         name: sp2Name
         widget: string
@@ -156,7 +151,6 @@ collections:
         required: false
         allow_multiple: false
         choose_url: false
-        media_folder: '/img'
       - label: Body
         name: body
         widget: markdown
