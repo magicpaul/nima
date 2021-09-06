@@ -7,6 +7,7 @@ export default function EventSection({
   subtitle,
   eventDate,
   location,
+  slug,
   sp1Name,
   sp1Img,
   sp1Location,
@@ -86,33 +87,35 @@ export default function EventSection({
             </div>
             <hr className="w-16 border-gray-400 hidden sm:block" />
           </div>
-          <div className="col-start-1 row-start-4 space-y-3 pr-4 my-16 md:my-0 px-4 md:pr-4 md:pl-0">
-            <Link href="/events/nima-2021">
-              <a className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
-                Book Tickets
-              </a>
-            </Link>
+          <div className="col-start-1 row-start-4 xs:justify-center sm:justify-start">
+            <div className="my-8 sm:my-0 px-4 md:px-0">
+              <Link href={`/events/${slug}`}>
+                <a className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+                  Book Tickets
+                </a>
+              </Link>
+            </div>
           </div>
           <div className="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-4">
             <div className="w-full grid grid-cols-3 grid-rows-2 gap-2">
               <div className="relative col-span-3 row-span-2 md:col-span-2 sm:mr-2 md:mr-0">
                 <img
                   src={image}
-                  alt=""
+                  alt={title}
                   className="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg"
                 />
               </div>
               <div className="relative hidden md:block">
                 <img
                   src={sp1Img}
-                  alt=""
+                  alt={sp1Name}
                   className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
                 />
               </div>
               <div className="relative hidden md:block">
                 <img
                   src={sp2Img}
-                  alt=""
+                  alt={sp2Name}
                   className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
                 />
               </div>

@@ -46,6 +46,7 @@ const HomePage: NextPage<Props> = ({ content, featuredPost }) => {
             subtitle={currentEvent.subtitle}
             eventDate={currentEvent.eventDate}
             location={currentEvent.location}
+            slug={currentEvent.slug}
             sp1Name={currentEvent.sp1Name}
             sp1Img={currentEvent.sp1Img}
             sp1Location={currentEvent.sp1Location}
@@ -69,6 +70,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'subtitle',
     'eventDate',
     'location',
+    'slug',
     'sp1Name',
     'sp1Img',
     'sp1Location',
