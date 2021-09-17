@@ -7,6 +7,7 @@ import PageHeader from 'components/home/PageHeader';
 import { HomeAttributes } from 'interfaces/home';
 //import { EventAttributes } from 'interfaces/event';
 import Header from 'components/home/Header';
+import Head from 'next/head';
 
 interface Props {
   content: { attributes: HomeAttributes };
@@ -23,6 +24,9 @@ const BlogPage: NextPage<Props> = ({ posts, content }) => {
           cta_text={attributes.hero_cta_text}
           cta_url={attributes.hero_cta_url}
         />
+        <Head>
+          <title>Events</title>
+        </Head>
         <div className="bg-gray-50">
           <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
             <PageHeader title="Events" description="Events here" />

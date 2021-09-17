@@ -48,12 +48,11 @@ const Header = ({ cta_text, cta_url }): JSX.Element => {
               </Link>
             </li>
             <li className="nav-item">
-              <a
-                className="px-3 py-2 flex items-center text-s font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo"
-              >
-                Audio
-              </a>
+              <Link href="/audio/">
+                <a className="px-3 py-2 flex items-center text-s font-bold leading-snug text-white hover:opacity-75">
+                  Audio
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href={cta_url}>
