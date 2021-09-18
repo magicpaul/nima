@@ -16,6 +16,7 @@ const Header = ({ cta_text, cta_url }): JSX.Element => {
           <button
             className="text-white cursor-pointer text-xl leading-none px-0 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
+            aria-label="Menu"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
             {navbarOpen ? (
