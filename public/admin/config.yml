@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   repo: magicpaul/nima
   branch: master
-media_folder: /public/img
+media_folder: /img
 logo_url: 'https://niministryassembly.org.uk/img/logo-cms.png'
 site_url: 'https://niministryassembly.org.uk'
 collections:
@@ -69,6 +69,7 @@ collections:
               - label: Image
                 name: image
                 widget: image
+                media_folder: /img/contact-pics
                 allow_multiple: false
                 choose_url: false
   - name: events
