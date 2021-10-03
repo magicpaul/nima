@@ -4,8 +4,8 @@ backend:
   repo: magicpaul/nima
   branch: master
 media_folder: /public/img
-logo_url: 'https://nima-new.netlify.app/img/logo-cms.png'
-site_url: 'https://nima-new.netlify.app'
+logo_url: 'https://niministryassembly.org.uk/img/logo-cms.png'
+site_url: 'https://niministryassembly.org.uk'
 collections:
   - name: pages
     label: Pages
