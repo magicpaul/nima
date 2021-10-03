@@ -27,4 +27,8 @@ team:
     position: Minister (Retired)
     description: Hamilton Road Presbyterian Church
     image: /img/contact-pics/dj.jpeg
+  - name: Bill Press
+    description: Knockbreda Parish Church
+    position: Rector
+    image: /public/img/bp.jpeg
 ---
