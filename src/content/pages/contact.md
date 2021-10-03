@@ -1,6 +1,7 @@
 ---
 team_title: NIMA Steering Group
-team_description: The Steering Group come from a variety of traditions, but with a united goal - to encourage and equip preachers.
+team_description: The Steering Group come from a variety of traditions, but with
+  a united goal - to encourage and equip preachers.
 team:
   - name: Moore Casement
     position: Director
@@ -26,8 +27,8 @@ team:
     position: Minister (Retired)
     description: Hamilton Road Presbyterian Church
     image: /img/contact-pics/dj.jpeg
-  - name: Trevor Johnston
+  - name: Bill Press
+    description: Knockbreda Parish Church
     position: Rector
-    description: All Saints Church Belfast
-    image: /img/contact-pics/tj.jpeg
+    image: /public/img/bill-staff-360px-e1632839882153.jpeg
 ---
