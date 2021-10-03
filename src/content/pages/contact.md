@@ -30,5 +30,5 @@ team:
   - name: Bill Press
     description: Knockbreda Parish Church
     position: Rector
-    image: /public/img/bp.jpeg
+    image: /img/bp.jpeg
 ---
