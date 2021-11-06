@@ -20,7 +20,7 @@ const HeroSection: React.FC<Props> = ({
 }): JSX.Element => {
   return (
     <div className="relative bg-green-800 overflow-hidden">
-      <div className="max-w-7xl mx-auto">
+      <div className="container mx-auto">
         <div className="relative z-10 pb-8 bg-green-800 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-green-800 transform translate-x-1/2"
@@ -31,7 +31,7 @@ const HeroSection: React.FC<Props> = ({
           >
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
-          <main className="pt-4 mx-auto max-w-7xl px-4 sm:pt-6 sm:px-6 md:pt-10 lg:mt-0 lg:px-8 lg:pt-16 xl:mt-0 xl:pt-28">
+          <main className="pt-4 mx-auto container px-4 sm:pt-6 sm:px-6 md:pt-10 lg:mt-0 lg:px-8 lg:pt-16 xl:mt-0 xl:pt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-white xl:inline">

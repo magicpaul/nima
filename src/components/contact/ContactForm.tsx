@@ -1,4 +1,7 @@
+import { useRouter } from 'next/router';
+
 const ContactForm = (): JSX.Element => {
+  const router = useRouter();
   return (
     <div className="grid w-full grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-50 text-gray-800">
       <div className="flex flex-col justify-between">
@@ -9,7 +12,24 @@ const ContactForm = (): JSX.Element => {
           <div className="text-gray-300">Contact us</div>
         </div>
       </div>
-      <form noValidate className="space-y-6 ng-untouched ng-pristine ng-valid">
+      <form
+        noValidate
+        className="space-y-6 ng-untouched ng-pristine ng-valid"
+        method="POST"
+        name="contact-form"
+        action="contact/?success=true"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={() =>
+          router.replace('/contact/?success=true', undefined, { shallow: true })
+        }
+      >
+        <input type="hidden" name="form-name" value="contact-form" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
         <div>
           <label htmlFor="name" className="text-sm">
             Full name

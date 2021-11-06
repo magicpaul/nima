@@ -1,7 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
-// import Link from 'next/link';
-//import Image from 'next/image';
 import { CalendarIcon, MapIcon } from '@heroicons/react/outline';
 import Layout from 'components/home/Layout';
 import SEO from 'components/home/SEO';
@@ -57,7 +55,7 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
       <Layout>
         <Header cta_text={home.hero_cta_text} cta_url={home.hero_cta_url} />
         <div className="relative bg-white overflow-hidden">
-          <div className="max-w-7xl mx-auto">
+          <div className="container mx-auto">
             <div className="relative z-10 bg-white sm:pb-8 md:pb-16 lg:max-w-2xl lg:w-full lg:pb-20 xl:pb-24">
               <svg
                 className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
@@ -68,7 +66,7 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
               >
                 <polygon points="50,0 100,0 50,100 0,100" />
               </svg>
-              <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-6 sm:px-6 md:mt-10 lg:mt-0 lg:px-8 lg:pt-16 xl:mt-0 xl:pt-28">
+              <main className="mt-4 mx-auto container px-4 sm:mt-6 sm:px-6 md:mt-10 lg:mt-0 lg:px-8 lg:pt-16 xl:mt-0 xl:pt-28">
                 <p className="text-xl font-medium text-green-500 sm:mb-1 px-4 md:pr-4 md:pl-0">
                   {category}
                 </p>

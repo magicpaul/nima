@@ -28,7 +28,7 @@ const BlogPage: NextPage<Props> = ({ posts, content }) => {
           <title>Events</title>
         </Head>
         <div className="bg-gray-50">
-          <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
+          <main className="flex-1 w-full container px-4 py-8 mx-auto md:px-8 md:py-16">
             <PageHeader title="Events" description="Events here" />
             <section className="container py-8 mx-auto ">
               <div className="space-y-8">
