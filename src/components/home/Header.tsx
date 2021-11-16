@@ -6,7 +6,7 @@ const Header = ({ cta_text, cta_url }): JSX.Element => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <nav className="relative flex flex-wrap items-center justify-between px-0 py-3 bg-gray">
-      <div className="sm:px-8 px-4 max-w-7xl mx-auto flex flex-wrap justify-between w-full">
+      <div className="sm:px-8 px-4 container mx-auto flex flex-wrap justify-between w-full">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block">
           <Link href="/">
             <a>
