@@ -19,7 +19,7 @@ export default function EventSection({
 }) {
   return (
     <div className=" bg-green bg-opacity-10">
-      <div className="w-full max-w-7xl px-0 mx-auto md:px-8">
+      <div className="w-full container px-0 mx-auto md:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:py-12 sm:gap-x-8 md:py-16">
           <div className="relative z-10 col-start-1 row-start-1 pr-4 pt-40 sm:pt-16 pb-3 bg-gradient-to-t from-black sm:bg-none">
             <p className="text-sm font-medium text-white sm:mb-1 sm:text-green-500 px-4 md:pr-4 md:pl-0">

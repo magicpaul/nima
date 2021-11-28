@@ -1,6 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
-// import Link from 'next/link';
+import Link from 'next/link';
 import Layout from 'components/home/Layout';
 import SEO from 'components/home/SEO';
 import { HomeAttributes } from 'interfaces/home';
@@ -32,7 +32,7 @@ const AudioDetailPage: React.FC<{ content: any; homeContent: any }> = ({
         <Header cta_text={home.hero_cta_text} cta_url={home.hero_cta_url} />
         <div className="relative bg-white overflow-hidden">
           <div className="container mx-auto">
-            <div className="relative z-10 bg-white sm:pb-8 md:pb-16 lg:max-w-2xl lg:w-full lg:pb-20 xl:pb-24">
+            <div className="relative z-10 bg-white sm:pb-8 md:pb-16 lg:max-w-2xl lg:w-full lg:pb-20 xl:pb-24 xl:max-w-3xl">
               <svg
                 className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
                 fill="currentColor"
@@ -71,6 +71,11 @@ const AudioDetailPage: React.FC<{ content: any; homeContent: any }> = ({
         </div>
         <section className="text-green-900 body-font bg-gray-300 bg-opacity-10">
           <div className="container px-4 md:px-8 py-8 mx-auto flex flex-col">
+            <Link href="/audio">
+              <a className="text-green uppercase hover:text-green-700 pb-4">
+                &lsaquo; Back
+              </a>
+            </Link>
             <iframe
               src={embed}
               frameBorder="0"
