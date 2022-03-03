@@ -43,6 +43,7 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
     sp2Bio,
   } = content.attributes;
   const home = homeContent.attributes;
+  console.log(directions);
   return (
     <>
       <Head>
@@ -133,7 +134,7 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
           <div className="container px-4 md:px-8 py-16 mx-auto flex flex-col ">
             <div className="lg:w-full mx-auto ">
               <h1 className="text-4xl sm:text-5xl md:text-6xl text-center text-gray font-extrabold tracking-tight">
-                Speakers
+                Speaker{sp2Name ? 's' : ''}:
               </h1>
               <Speaker
                 spName={sp1Name}

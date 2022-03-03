@@ -50,12 +50,12 @@ export default function EventSection({
             </div>
             <div className="col-start-1 row-start-3 sm:pb-16">
               <h2 className="title-font text-lg font-bold text-gray-900 mb-3">
-                Speakers:
+                Speaker{sp2Name ? 's' : ''}:
               </h2>
               <div className="inline-flex items-left flex-col sm:flex-row">
                 <div className="inline-flex items-center mb-4 sm:mb-0">
                   <img
-                    alt="blog"
+                    alt={sp1Name}
                     src={sp1Img}
                     className="w-12 h-12 sm:hidden rounded-full flex-shrink-0 object-cover object-center"
                   ></img>
@@ -68,21 +68,23 @@ export default function EventSection({
                     </span>
                   </span>
                 </div>
-                <div className="inline-flex items-center pl-0 mb-0 md:pl-8">
-                  <img
-                    alt="blog"
-                    src={sp2Img}
-                    className="w-12 h-12 sm:hidden rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4 sm:pl-0">
-                    <span className="title-font font-medium text-gray-900">
-                      {sp2Name}
+                {sp2Img ? (
+                  <div className="inline-flex items-center pl-0 mb-0 md:pl-8">
+                    <img
+                      alt={sp1Name}
+                      src={sp2Img}
+                      className="w-12 h-12 sm:hidden rounded-full flex-shrink-0 object-cover object-center"
+                    />
+                    <span className="flex-grow flex flex-col pl-4 sm:pl-0">
+                      <span className="title-font font-medium text-gray-900">
+                        {sp2Name}
+                      </span>
+                      <span className="text-gray-400 text-xs tracking-widest mt-0.5 uppercase">
+                        {sp2Location}
+                      </span>
                     </span>
-                    <span className="text-gray-400 text-xs tracking-widest mt-0.5 uppercase">
-                      {sp2Location}
-                    </span>
-                  </span>
-                </div>
+                  </div>
+                ) : null}
               </div>
             </div>
             <hr className="w-16 border-gray-400 hidden sm:block" />
@@ -97,28 +99,40 @@ export default function EventSection({
             </div>
           </div>
           <div className="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-4">
-            <div className="w-full grid grid-cols-3 grid-rows-2 gap-2">
-              <div className="relative col-span-3 row-span-2 md:col-span-2 sm:mr-2 md:mr-0">
+            <div className="w-full grid grid-cols-2 grid-rows-2 gap-2">
+              <div className="relative col-span-2 row-span-2 md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 sm:mr-2 md:mr-0">
                 <img
                   src={image}
                   alt={title}
                   className="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg"
                 />
               </div>
-              <div className="relative hidden md:block">
-                <img
-                  src={sp1Img}
-                  alt={sp1Name}
-                  className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
-                />
-              </div>
-              <div className="relative hidden md:block">
-                <img
-                  src={sp2Img}
-                  alt={sp2Name}
-                  className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
-                />
-              </div>
+              {sp2Img ? (
+                <>
+                  <div className="relative hidden md:block">
+                    <img
+                      src={sp1Img}
+                      alt={sp1Name}
+                      className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                    />
+                  </div>
+                  <div className="relative hidden md:block">
+                    <img
+                      src={sp2Img}
+                      alt={sp2Name}
+                      className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                    />
+                  </div>
+                </>
+              ) : (
+                <div className="relative hidden md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
+                  <img
+                    src={sp1Img}
+                    alt={sp1Name}
+                    className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                  />
+                </div>
+              )}
             </div>
           </div>
         </div>

@@ -15,11 +15,10 @@ const FeatureSection: React.FC<Props> = ({
         <div>
           <h1 className="text-green text-7xl font-extrabold">{title}</h1>
         </div>
-        <div className="text-gray-400">
-          <p>{description1}</p>
-        </div>
-        <div className="text-gray-400">
-          <p>{description2}</p>
+        <div className="text-gray-400 col-span-2">
+          <p className="two-cols">
+            {description1} {description2}
+          </p>
         </div>
       </div>
     </main>

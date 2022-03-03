@@ -29,3 +29,12 @@
 .neuo-shadow:hover {
   box-shadow: inset 5px 5px 10px #e1e1e1, inset -5px -5px 10px #ffffff;
 }
+
+.two-cols {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+.nl2br {
+  white-space: pre-line;
+}
