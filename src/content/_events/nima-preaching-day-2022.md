@@ -2,12 +2,12 @@
 title: Christ Above All
 subtitle: The Message of Colossians
 category: PREACHING DAY 2022
-featured: true
+featured: false
 eventDate: Tuesday 17th May 2022
 postDate: 2022-03-01T20:28:07.129Z
 location: T3 Conference Centre
 image: /img/preach-22.jpeg
-ticketsLink: https://nima.yapsody.com/event/index/715941/nima-preaching-day
+ticketsLink:
 whenText: |
   Tuesday 17th May 2022, 10am - 4pm.
   The day will include four teaching sessions on Paul’s letter to the Colossians.

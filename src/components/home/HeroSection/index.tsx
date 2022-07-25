@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import HomeButton from '../HomeButton';
 
 interface Props {
   title_white: string;
@@ -46,11 +47,7 @@ const HeroSection: React.FC<Props> = ({
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="mt-3 sm:mt-0">
-                  <Link href={cta_url}>
-                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
-                      {cta_text}
-                    </a>
-                  </Link>
+                  <HomeButton text={cta_text} url={cta_url} />
                 </div>
               </div>
             </div>

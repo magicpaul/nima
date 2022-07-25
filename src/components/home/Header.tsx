@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import NavCtaButton from './NavCtaButton';
 
 const Header = ({ cta_text, cta_url }): JSX.Element => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -55,13 +56,7 @@ const Header = ({ cta_text, cta_url }): JSX.Element => {
                 </a>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link href={cta_url}>
-                <a className="px-3 lg:px-4 py-2 my-4 lg:ml-4 border border-transparent text-s font-bold leading-snug rounded-md text-white bg-green-600 hover:bg-green-700">
-                  {cta_text}
-                </a>
-              </Link>
-            </li>
+            <NavCtaButton url={cta_url} text={cta_text} />
           </ul>
         </div>
       </div>
