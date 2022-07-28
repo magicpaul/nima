@@ -25,7 +25,7 @@ export default function EventSection({
             <p className="text-sm font-medium text-white sm:mb-1 sm:text-green-500 px-4 md:pr-4 md:pl-0">
               {category}
             </p>
-            <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-black md:text-3xl px-4 md:pr-4 md:pl-0 uppercase">
+            <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-black md:text-3xl px-4 md:pr-4 md:pl-0 max-w-prose">
               {title}
             </h2>
             <p className="text-sm font-medium text-white sm:mb-1 sm:text-gray-500 px-4 md:pr-4 md:pl-0">
@@ -93,7 +93,7 @@ export default function EventSection({
             <div className="my-8 sm:my-0 px-4 md:px-0">
               <Link href={`/events/${slug}`}>
                 <a className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
-                  Book Tickets
+                  Find out more
                 </a>
               </Link>
             </div>

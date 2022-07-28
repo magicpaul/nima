@@ -32,7 +32,7 @@
 
 .two-cols {
   column-count: 2;
-  column-gap: 2em;
+  column-gap: 4rem;
 }
 
 .nl2br {
