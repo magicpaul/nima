@@ -6,9 +6,13 @@ speakers:
   - name: David Gibson
   - name: Dan Doriani
   - name: Garry Williams
+  - name: Jonty Allcock
+  - name: Robin Sydserff
   - name: Zack Eswine
+  - name: Q&A
 books:
   - name: Colossians
+  - name: Daniel
   - name: Ecclesiastes
   - name: James
   - name: Job
