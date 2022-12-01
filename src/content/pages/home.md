@@ -1,10 +1,10 @@
 ---
 hero_title_white: Equipping and
 hero_title_green: encouraging preachers
-hero_description: We’re looking forward to our MINISTRY ASSEMBLY in November and encourage you to SAVE THE DATE. We have decided not to increase our costs despite inflationary pressures at £55 for the full assembly and £35 for a single day. For those who are unwaged it is £40 and £25. Booking will open in September.
+hero_description: The aim of the Northern Ireland Ministry Assembly is to encourage and help preachers to give themselves to the indispensable work of presenting the Lord Jesus Christ to believers and unbelievers, to all ages, and to all kinds of people.
 hero_image: /img/header.jpeg
-hero_cta_text: NIMA 2022
-hero_cta_url: '/events/nima-2022'
+hero_cta_text: Previous events
+hero_cta_url: '/events/'
 feature_title: NIMA
 feature_description1: We firmly believe that when the Bible is taught faithfully and relevantly the voice of God is heard in a living and powerful way. We therefore seek to encourage those engaged in a preaching ministry to see the expounding of Scripture as the pressing need in today’s church and aim to equip them for this exacting task.
 feature_description2:
