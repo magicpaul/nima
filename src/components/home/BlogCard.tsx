@@ -15,7 +15,6 @@ export default function BlogCard({ title, image, slug, category, subtitle }) {
             placeholder="blur"
             blurDataURL={image}
           />
-
           <div className="flex flex-col flex-1 p-6">
             <span className="text-xs tracking-wider uppercase text-green">
               {category}
