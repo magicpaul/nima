@@ -9,7 +9,7 @@ location: T3 Conference Centre
 image: /img/preach-23.jpeg
 ticketsLink: https://nima.yapsody.com/event/index/753817/nima-spring-conference-one-day-one-book
 whenText: |
-  Tuesday 17th May 2022, 9.30am - 4.15pm.
+  Tuesday 9th May 2023, 9.30am - 3.30pm.
 costText: The cost per person is £15. We will provide coffee/tea, scones and cold drinks but attendees are asked to bring their own lunch or purchase it in the adjoining cafe.
 mapsEmbed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2316.7770011698044!2d-6.104859384156462!3d54.50215709520875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486103a02b15cae3%3A0x50d9bc0e4cb035e2!2sHouse%20of%20Vic-Ryn%2C%20Moira%20Rd%2C%20Lisburn%20BT28%202RF!5e0!3m2!1sen!2suk!4v1646172135227!5m2!1sen!2suk
 directions: |
