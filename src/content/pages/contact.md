@@ -15,18 +15,18 @@ team:
     position: Assistant Minister
     description: Hill Street Presbyterian Church
     image: /img/contact-pics/jg.jpeg
-  - name: Andy Hambleton
-    position: Minister
-    description: Crumlin Evangelical Presbyterian
-    image: /img/contact-pics/ah.jpeg
   - name: Phil Howe
-    position: Training and Resources Manager
-    description: Scripture Union NI
+    position: Discipleship Pastor
+    description: Greenisland Baptist Church
     image: /img/contact-pics/ph.jpeg
   - name: David Johnston
-    position: Minister (Retired)
+    position: Minister Emeritus
     description: Hamilton Road Presbyterian Church
     image: /img/contact-pics/dj.jpeg
+  - name: Mark Johnston
+    position: Minister
+    description: Groomsport Evangelical Presbyterian Church
+    image: /img/contact-pics/mj.jpeg
   - name: Bill Press
     description: Knockbreda Parish Church
     position: Rector
