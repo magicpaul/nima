@@ -2,7 +2,7 @@
 title: What Matters Most
 subtitle: The Message of 2 Peter
 category: BOOK IN A DAY 2023
-featured: true
+featured: false
 eventDate: Tuesday 9th May 2023
 postDate: 2022-12-21T20:28:07.129Z
 location: T3 Conference Centre

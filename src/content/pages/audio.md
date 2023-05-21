@@ -8,6 +8,7 @@ speakers:
   - name: Garry Williams
   - name: Jonty Allcock
   - name: Robin Sydserff
+  - name: Rupert Bentley-Taylor
   - name: Zack Eswine
   - name: Q&A
 books:
@@ -16,5 +17,6 @@ books:
   - name: Ecclesiastes
   - name: James
   - name: Job
+  - name: 2 Peter
   - name: Other
 ---
