@@ -43,6 +43,30 @@ const EventDetails: React.FC<{
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h2 className="text-lg mb-1 font-medium title-font uppercase text-green">
+                  Cost
+                </h2>
+                <p className="text-base font-light nl2br">{cost}</p>
+              </div>
+            </div>
+            <div className="flex flex-col items-start max-w-screen-sm md:flex-row">
+              <div className="flex items-center justify-center w-12 h-12 mb-4 mr-8 text-green">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                   strokeWidth="2"
                 >
                   <path
@@ -58,30 +82,6 @@ const EventDetails: React.FC<{
                 </h2>
                 <p className="leading-relaxed text-gray-600">{where}</p>
                 <p className="text-base font-light mb-4 nl2br">{directions}</p>
-              </div>
-            </div>
-            <div className="flex flex-col items-start max-w-screen-sm md:flex-row">
-              <div className="flex items-center justify-center w-12 h-12 mb-4 mr-8 text-green">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-12 w-12"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h2 className="text-lg mb-1 font-medium title-font uppercase text-green">
-                  Cost
-                </h2>
-                <p className="text-base font-light nl2br">{cost}</p>
               </div>
             </div>
             <div className="h-96 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
