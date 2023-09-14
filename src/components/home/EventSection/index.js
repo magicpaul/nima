@@ -17,6 +17,7 @@ export default function EventSection({
   sp2Location,
   video,
   image,
+  featured,
 }) {
   return (
     <div className=" bg-green bg-opacity-10">

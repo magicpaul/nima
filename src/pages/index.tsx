@@ -54,6 +54,7 @@ const HomePage: NextPage<Props> = ({ content, featuredPost }) => {
             sp2Location={currentEvent.sp2Location}
             image={currentEvent.image}
             video={currentEvent.video}
+            featured={currentEvent.featured}
           />
         )}
       </Layout>
@@ -78,6 +79,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'sp2Location',
     'image',
     'video',
+    'featured',
   ]);
 
   return { props: { content: content.default, featuredPost } };
