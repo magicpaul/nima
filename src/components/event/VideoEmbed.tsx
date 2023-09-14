@@ -7,7 +7,7 @@ const VideoEmbed: React.FC<{ video_id: string }> = ({ video_id }) => {
       <LiteYouTubeEmbed
         aspectHeight={9}
         aspectWidth={16}
-        id="{video_id}"
+        id={video_id}
         title="NIMA"
       />
     );
