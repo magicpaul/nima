@@ -35,7 +35,6 @@ const HomePage: NextPage<Props> = ({ content, featuredPost }) => {
           cta_url={attributes.hero_cta_url}
         />
         <FeatureSection
-          title={attributes.feature_title}
           description1={attributes.feature_description1}
           description2={attributes.feature_description2}
         />
@@ -54,6 +53,7 @@ const HomePage: NextPage<Props> = ({ content, featuredPost }) => {
             sp2Img={currentEvent.sp2Img}
             sp2Location={currentEvent.sp2Location}
             image={currentEvent.image}
+            video={currentEvent.video}
             featured={currentEvent.featured}
           />
         )}
@@ -78,6 +78,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'sp2Img',
     'sp2Location',
     'image',
+    'video',
     'featured',
   ]);
 

@@ -14,7 +14,6 @@ const HomePreview: ComponentType<any> = ({ entry }) => {
         cta_url={entry.getIn(['data', 'hero_cta_url'])}
       />
       <FeatureSection
-        title={entry.getIn(['data', 'feature_title'])}
         description1={entry.getIn(['data', 'feature_description1'])}
         description2={entry.getIn(['data', 'feature_description2'])}
       />
