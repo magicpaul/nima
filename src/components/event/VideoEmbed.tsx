@@ -1,5 +1,4 @@
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
-import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 const VideoEmbed: React.FC<{ video_id: string }> = ({ video_id }) => {
   if (video_id) {
