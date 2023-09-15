@@ -32,6 +32,7 @@
     "superjson": "^1.7.5"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "16.7.4",
     "@types/webpack-env": "1.15.3",
     "@typescript-eslint/eslint-plugin": "4.4.0",
