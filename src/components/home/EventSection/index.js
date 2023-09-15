@@ -23,7 +23,7 @@ export default function EventSection({
     <div className=" bg-green bg-opacity-10">
       <div className="w-full container px-0 mx-auto md:px-8">
         {video ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 md:py-12 md:gap-x-8 md:py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:py-12 md:gap-x-8">
             <div className="col-start-1 row-start-1 pr-4 pt-8 pb-3 ">
               <p className="text-sm font-medium sm:mb-1 text-green-500 px-4 md:pr-4 md:pl-0">
                 {category}
@@ -35,7 +35,7 @@ export default function EventSection({
                 {subtitle}
               </p>
             </div>
-            <div className="col-start-1 row-start-2 px-4 md:pr-4 md:pl-0 sm:pb-16">
+            <div className="col-start-1 row-start-2 px-4 md:pr-4 md:pl-0 md:pb-16">
               <div className="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
                 <div className="ml-1">
                   <span className="text-gray-400">
@@ -51,7 +51,7 @@ export default function EventSection({
                   </span>
                 </div>
               </div>
-              <div className="col-start-1 row-start-2 sm:pb-16">
+              <div className="col-start-1 row-start-2 md:pb-16">
                 <h2 className="title-font text-lg font-bold text-gray-900 mb-3">
                   Speaker{sp2Name ? 's' : ''}:
                 </h2>
@@ -102,7 +102,7 @@ export default function EventSection({
               <hr className="w-16 border-gray-400 hidden lg:block" />
             </div>
             <div className="col-start-1 row-start-4 md:row-start-3 xs:justify-center sm:justify-start">
-              <div className="my-8 md:my-0 px-4 lg:px-0">
+              <div className="my-8 lg:my-0 px-4 lg:px-0">
                 <Link href={`/events/${slug}`}>
                   <a className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 lg:py-4 lg:text-lg lg:px-10">
                     Find out more
@@ -111,7 +111,7 @@ export default function EventSection({
               </div>
             </div>
 
-            <div className="col-start-1 lg:col-start-2 row-start-3 md:row-start-1 lg:row-span-2 flex">
+            <div className="col-start-1 md:col-start-2 row-start-3 md:row-start-1 lg:row-span-2 flex">
               <div className="w-full mt-8">
                 <div className="lg:row-span-4 md:mr-2 lg:mr-0">
                   <VideoEmbed video_id={video} />
