@@ -7,8 +7,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
   background-repeat: no-repeat;
   background-color: #fff;
   border-color: #d1d5db;
