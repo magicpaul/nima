@@ -9,13 +9,13 @@ interface Props {
 
 const TeamSection: React.FC<Props> = ({ title, description, team }) => {
   return (
-    <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
+    <main className="flex-1 w-full container px-4 py-8 mx-auto md:px-8 md:py-16">
       <PageHeader title={title} description={description} />
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-between justify-items-stretch gap-8">
         {team?.map((team, i) => {
           return (
             <div
-              className="h-full flex md:flex-row flex-col items-center md:justify-start justify-center text-center md:text-left bg-gray-50 shadow-lg rounded-lg"
+              className="h-full flex md:flex-row flex-col items-center md:justify-start justify-center text-center md:text-left bg-gray-50 dark:bg-gray-900 shadow-lg rounded-lg"
               key={i}
             >
               <img
@@ -24,11 +24,15 @@ const TeamSection: React.FC<Props> = ({ title, description, team }) => {
                 src={team.image}
               />
               <div className="flex-grow md:pl-4 md:pr-4">
-                <h2 className="title-font font-medium text-lg text-gray-900">
+                <h2 className="title-font font-bold text-xl text-gray-900 dark:text-gray-50">
                   {team.name}
                 </h2>
-                <h3 className="text-gray-500 mb-3">{team.position}</h3>
-                <p className="mb-4">{team.description}</p>
+                <h3 className="text-gray-500 dark:text-gray-400 mb-3">
+                  {team.position}
+                </h3>
+                <p className="mb-4 text-gray dark:text-gray-400">
+                  {team.description}
+                </p>
               </div>
             </div>
           );

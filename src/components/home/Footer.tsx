@@ -6,10 +6,10 @@ const Footer = (): JSX.Element => {
       <div className="container py-4 px-8 mx-auto flex items-center sm:flex-row flex-col">
         <Link href="/">
           <a
-            className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+            className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-gray-100"
             title="NIMA Home"
           >
-            <div className="w-12 h-12 rounded-full flex justify-around content-around items-center bg-gray-500">
+            <div className="w-12 h-12 rounded-full flex justify-around content-around items-center bg-gray-500 dark:border-white dark:border">
               <img src="/img/nima.png" className="w-8 h-8" alt="nima logo" />
             </div>
             <span className="ml-3 text-xl">
@@ -17,13 +17,13 @@ const Footer = (): JSX.Element => {
             </span>
           </a>
         </Link>
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+        <p className="text-sm text-gray-500 dark:text-gray-50 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © {new Date().getFullYear()}
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             href="https://www.facebook.com/NIMinistryAssembly"
-            className="text-gray-500 hover:text-green"
+            className="text-gray-500 dark:text-gray-50 hover:text-green"
           >
             <svg
               fill="currentColor"
@@ -41,7 +41,7 @@ const Footer = (): JSX.Element => {
           </a>
           <a
             href="https://twitter.com/nimapreaching"
-            className="ml-3 text-gray-500 hover:text-green"
+            className="ml-3 text-gray-500 dark:text-gray-50 hover:text-green"
           >
             <svg
               fill="currentColor"
@@ -58,7 +58,7 @@ const Footer = (): JSX.Element => {
           </a>
           <a
             href="https://www.instagram.com/niministry_assembly/"
-            className="ml-3 text-gray-500 hover:text-green"
+            className="ml-3 text-gray-500 dark:text-gray-50 hover:text-green"
           >
             <svg
               fill="none"

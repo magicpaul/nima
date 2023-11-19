@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface Props {
   title: string;
@@ -18,7 +17,7 @@ const AudioCard: React.FC<Props> = ({
   return (
     <Link href={`/audio/${slug}`}>
       <a aria-label={title}>
-        <div className="overflow-hidden relative mx-auto bg-white hover:bg-gray-50 shadow-lg ring-black/5 rounded-xl flex items-center gap-6 dark:bg-gray-800 dark:highlight-white/5">
+        <div className="overflow-hidden relative mx-auto bg-white hover:bg-gray-50 dark:hover:bg-gray-600 shadow-lg ring-black/5 rounded-xl flex items-center gap-6 dark:bg-gray-800 dark:highlight-white/5">
           <img
             className="absolute -left-6 w-28 h-28 rounded-full shadow-lg"
             src={image}

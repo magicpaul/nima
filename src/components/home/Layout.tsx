@@ -9,7 +9,7 @@ interface Props {
 
 const Layout: NextPage<Props> = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900 dark:text-grey-50 bg-white dark:bg-gray">
       {children}
       <Footer />
     </div>

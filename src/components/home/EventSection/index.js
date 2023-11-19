@@ -28,31 +28,31 @@ export default function EventSection({
               <p className="text-sm font-medium sm:mb-1 text-green-500 px-4 md:pr-4 md:pl-0">
                 {category}
               </p>
-              <h2 className="text-xl font-semibold sm:text-2xl sm:leading-7 text-black md:text-3xl px-4 md:pr-4 md:pl-0 max-w-prose">
+              <h2 className="text-xl font-semibold sm:text-2xl sm:leading-7 text-black dark:text-gray-50 md:text-3xl px-4 md:pr-4 md:pl-0 max-w-prose">
                 {title}
               </h2>
-              <p className="text-sm font-medium sm:mb-1 text-gray-500 px-4 md:pr-4 md:pl-0">
+              <p className="text-sm font-light sm:mb-1 text-gray-300 dark:text-gray-50 px-4 md:pr-4 md:pl-0">
                 {subtitle}
               </p>
             </div>
             <div className="col-start-1 row-start-2 px-4 md:pr-4 md:pl-0 md:pb-16">
               <div className="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
                 <div className="ml-1">
-                  <span className="text-gray-400">
+                  <span className="text-gray-400 dark:text-gray-200">
                     <CalendarIcon className="h-6 w-6 pr-2 inline" />
                     {eventDate}{' '}
                   </span>
                 </div>
                 <div className="text-base font-normal mx-2">·</div>
                 <div>
-                  <span className="text-gray-400">
+                  <span className="text-gray-400 dark:text-gray-200">
                     <MapIcon className="h-6 w-6 pr-2 inline" />
                     {location}
                   </span>
                 </div>
               </div>
               <div className="col-start-1 row-start-2 md:pb-16">
-                <h2 className="title-font text-lg font-bold text-gray-900 mb-3">
+                <h2 className="title-font text-lg font-bold text-gray-900 dark:text-gray-200 mb-3">
                   Speaker{sp2Name ? 's' : ''}:
                 </h2>
                 <div className="inline-flex items-left flex-col md:flex-row">
@@ -64,10 +64,10 @@ export default function EventSection({
                     />
 
                     <span className="flex-grow flex flex-col pl-4 sm:pl-0">
-                      <span className="title-font font-medium text-gray-900">
+                      <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                         {sp1Name}
                       </span>
-                      <span className="text-gray-400 text-xs tracking-widest mt-0.5 uppercase">
+                      <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
                         {sp1Location}
                       </span>
                     </span>
@@ -88,10 +88,10 @@ export default function EventSection({
                         />
                       )}
                       <span className="flex-grow flex flex-col pl-4 sm:pl-0">
-                        <span className="title-font font-medium text-gray-900">
+                        <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                           {sp2Name}
                         </span>
-                        <span className="text-gray-400 text-xs tracking-widest mt-0.5 uppercase">
+                        <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
                           {sp2Location}
                         </span>
                       </span>
@@ -99,7 +99,7 @@ export default function EventSection({
                   ) : null}
                 </div>
               </div>
-              <hr className="w-16 border-gray-400 hidden lg:block" />
+              <hr className="w-16 border-gray-400 dark:text-gray-200 hidden lg:block" />
             </div>
             <div className="col-start-1 row-start-4 md:row-start-3 xs:justify-center sm:justify-start">
               <div className="my-8 lg:my-0 px-4 lg:px-0">
@@ -125,31 +125,31 @@ export default function EventSection({
               <p className="text-sm font-medium text-white sm:mb-1 sm:text-green-500 px-4 md:pr-4 md:pl-0">
                 {category}
               </p>
-              <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-black md:text-3xl px-4 md:pr-4 md:pl-0 max-w-prose">
+              <h2 className="text-xl font-semibold text-white dark:sm:text-gray-50 sm:text-2xl sm:leading-7 sm:text-black md:text-3xl px-4 md:pr-4 md:pl-0 max-w-prose">
                 {title}
               </h2>
-              <p className="text-sm font-medium text-white sm:mb-1 sm:text-gray-500 px-4 md:pr-4 md:pl-0">
+              <p className="text-sm font-light text-white sm:mb-1 sm:text-gray-500 dark:sm:text-gray-200 px-4 md:pr-4 md:pl-0">
                 {subtitle}
               </p>
             </div>
             <div className="col-start-1 row-start-2 px-4 md:pr-4 md:pl-0 sm:pb-16">
               <div className="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
                 <div className="ml-1">
-                  <span className="text-gray-400">
+                  <span className="text-gray-400 dark:text-gray-200">
                     <CalendarIcon className="h-6 w-6 pr-2 inline" />
                     {eventDate}{' '}
                   </span>
                 </div>
                 <div className="text-base font-normal mx-2">·</div>
                 <div>
-                  <span className="text-gray-400">
+                  <span className="text-gray-400 dark:text-gray-200">
                     <MapIcon className="h-6 w-6 pr-2 inline" />
                     {location}
                   </span>
                 </div>
               </div>
               <div className="col-start-1 row-start-3 sm:pb-16">
-                <h2 className="title-font text-lg font-bold text-gray-900 mb-3">
+                <h2 className="title-font text-lg font-bold text-gray-900 dark:text-gray-100 mb-3">
                   Speaker{sp2Name ? 's' : ''}:
                 </h2>
                 <div className="inline-flex items-left flex-col md:flex-row">
@@ -160,10 +160,10 @@ export default function EventSection({
                       className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4 sm:pl-0">
-                      <span className="title-font font-medium text-gray-900">
+                      <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                         {sp1Name}
                       </span>
-                      <span className="text-gray-400 text-xs tracking-widest mt-0.5 uppercase">
+                      <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
                         {sp1Location}
                       </span>
                     </span>
@@ -176,10 +176,10 @@ export default function EventSection({
                         className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
                       />
                       <span className="flex-grow flex flex-col pl-4 sm:pl-0">
-                        <span className="title-font font-medium text-gray-900">
+                        <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                           {sp2Name}
                         </span>
-                        <span className="text-gray-400 text-xs tracking-widest mt-0.5 uppercase">
+                        <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
                           {sp2Location}
                         </span>
                       </span>
