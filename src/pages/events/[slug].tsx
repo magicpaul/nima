@@ -71,14 +71,14 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
                 <p className="text-xl font-medium text-green-500 sm:mb-1 px-4 md:pr-4 md:pl-0">
                   {category}
                 </p>
-                <h2 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl text-gray sm:leading-none px-4 md:pr-4 md:pl-0">
+                <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl md:leading-[0.9] text-gray sm:leading-none px-4 md:pr-4 md:pl-0 md:mb-4">
                   <span className="block text-grey dark:text-gray-50 xl:inline">
                     {title}
                   </span>
-                </h2>
-                <p className="lg:text-2xl md:text-xl text-lg font-medium text-gray-400 sm:mb-1 px-4 md:pr-4 md:pl-0">
+                </h1>
+                <h2 className="lg:text-2xl md:text-xl text-lg font-medium text-gray-400 sm:mb-1 px-4 md:pr-4 md:pl-0">
                   {subtitle}
-                </p>
+                </h2>
                 <div className="px-4 md:pr-4 md:pl-0">
                   <div className="flex-none sm:flex items-center lg:text-xl md:text-lg font-light my-8 lg:mt-8 sm:mb-0">
                     <div className="block sm:inline-block">

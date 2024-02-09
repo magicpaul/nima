@@ -32,7 +32,9 @@ const EventDetails: React.FC<{
                 <h2 className="text-lg mb-1 font-medium title-font uppercase text-green">
                   When
                 </h2>
-                <p className="text-base font-light nl2br">{when}</p>
+                <p className="text-base font-light text-gray-400 dark:text-gray-200 nl2br">
+                  {when}
+                </p>
               </div>
             </div>
             <div className="flex flex-col items-start max-w-screen-sm md:flex-row">
@@ -56,7 +58,9 @@ const EventDetails: React.FC<{
                 <h2 className="text-lg mb-1 font-medium title-font uppercase text-green">
                   Cost
                 </h2>
-                <p className="text-base font-light nl2br">{cost}</p>
+                <p className="text-base font-light text-gray-400 dark:text-gray-200 nl2br">
+                  {cost}
+                </p>
               </div>
             </div>
             <div className="flex flex-col items-start max-w-screen-sm md:flex-row">
@@ -80,8 +84,12 @@ const EventDetails: React.FC<{
                 <h2 className="text-lg mb-1 font-medium title-font uppercase text-green">
                   Where
                 </h2>
-                <p className="leading-relaxed text-gray-600">{where}</p>
-                <p className="text-base font-light mb-4 nl2br">{directions}</p>
+                <p className="leading-relaxed text-gray-600 dark:text-gray-100">
+                  {where}
+                </p>
+                <p className="text-base font-light mb-4 nl2br text-gray-400 dark:text-gray-200">
+                  {directions}
+                </p>
               </div>
             </div>
             <div className="h-96 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
