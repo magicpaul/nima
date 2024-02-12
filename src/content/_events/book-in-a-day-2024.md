@@ -26,6 +26,4 @@ sp1Img: /img/lewis-allen.jpeg
 
 This day is suitable for Bible readers (all of us) but will be particularly helpful for Bible teachers whether full-time or part-time, clergy or laity.
 
-Join us as we seek to unpack THE BOOK OF AMOS — Justice and Hope for a Compromised Church
-
-with Lewis Allen senior pastor of Hope Church in Huddersfield.
+Join us as we seek to unpack THE BOOK OF AMOS — Justice and Hope for a Compromised Church with Lewis Allen senior pastor of Hope Church in Huddersfield.
