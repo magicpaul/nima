@@ -7,6 +7,7 @@ eventDate: Tuesday 14th May 2024
 postDate: 2024-02-09T22:28:07.129Z
 location: T3 Conference Centre
 image: /img/biad-24.jpeg
+video:  tZwcc-qPF9o
 ticketsLink: https://nima.yapsody.com/event/index/792417/nima-spring-2024-conference-book-in-a-day
 whenText: |
   Tuesday 14th May 2024, 10.00am - 3.30pm.
