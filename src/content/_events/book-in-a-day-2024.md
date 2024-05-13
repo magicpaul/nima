@@ -2,7 +2,7 @@
 title: Justice and Hope for a Compromised Church
 subtitle: The Message of Amos
 category: Book in a day 2024
-featured: true
+featured: false
 eventDate: Tuesday 14th May 2024
 postDate: 2024-02-09T22:28:07.129Z
 location: T3 Conference Centre
