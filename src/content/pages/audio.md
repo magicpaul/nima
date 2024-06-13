@@ -2,6 +2,7 @@
 audio_title: Audio Recordings
 audio_description: You can find audio from all of our previous events here
 speakers:
+  - name: Lewis Allen
   - name: Joe Barnard
   - name: Andy Prime
   - name: Conrad Mbewe
@@ -14,6 +15,7 @@ speakers:
   - name: Zack Eswine
   - name: Other
 books:
+  - name: Amos
   - name: Colossians
   - name: Daniel
   - name: Ecclesiastes
