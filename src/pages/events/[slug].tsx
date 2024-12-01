@@ -41,6 +41,10 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
     sp2Name,
     sp2Location,
     sp2Bio,
+    sp3Name,
+    sp3Img,
+    sp3Location,
+    sp3Bio,
   } = content.attributes;
   const home = homeContent.attributes;
   console.log(directions);
@@ -149,6 +153,12 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
                 spBio={sp2Bio}
                 spImg={sp2Img}
                 spLocation={sp2Location}
+              />
+              <Speaker
+                spName={sp3Name}
+                spBio={sp3Bio}
+                spImg={sp3Img}
+                spLocation={sp3Location}
               />
             </div>
           </div>

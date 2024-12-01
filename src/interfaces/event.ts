@@ -16,6 +16,9 @@ export interface post {
   sp2Name: string;
   sp2Img: string;
   sp2Location: string;
+  sp3Name: string;
+  sp3Img: string;
+  sp3Location: string;
   video: string;
   featured: string;
 }

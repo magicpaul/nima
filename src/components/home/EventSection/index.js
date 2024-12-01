@@ -15,6 +15,9 @@ export default function EventSection({
   sp2Name,
   sp2Img,
   sp2Location,
+  sp3Name,
+  sp3Img,
+  sp3Location,
   video,
   image,
   featured,
@@ -56,14 +59,14 @@ export default function EventSection({
                   Speaker{sp2Name ? 's' : ''}:
                 </h2>
                 <div className="inline-flex items-left flex-col md:flex-row">
-                  <div className="inline-flex items-center mb-4 sm:mb-0">
+                  <div className="inline-flex items-center mb-4 sm:mb-0 pb-4">
                     <img
                       alt={sp1Name}
                       src={sp1Img}
                       className="w-12 h-12 mr-2 rounded-full flex-shrink-0 object-cover object-center"
                     />
 
-                    <span className="flex-grow flex flex-col pl-4 sm:pl-0">
+                    <span className="flex-grow flex flex-col pl-4 sm:pl-0 pb-4">
                       <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                         {sp1Name}
                       </span>
@@ -87,12 +90,37 @@ export default function EventSection({
                           className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
                         />
                       )}
-                      <span className="flex-grow flex flex-col pl-4 sm:pl-0">
+                      <span className="flex-grow flex flex-col pl-4 sm:pl-0 pb-4">
                         <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                           {sp2Name}
                         </span>
                         <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
                           {sp2Location}
+                        </span>
+                      </span>
+                    </div>
+                  ) : null}
+                  {sp3Img ? (
+                    <div className="inline-flex items-center pl-0 mb-0 md:pl-8">
+                      {video ? (
+                        <img
+                          alt={sp3Name}
+                          src={sp3Img}
+                          className="w-12 h-12 mr-2 rounded-full flex-shrink-0 object-cover object-center"
+                        />
+                      ) : (
+                        <img
+                          alt={sp3Name}
+                          src={sp3Img}
+                          className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
+                        />
+                      )}
+                      <span className="flex-grow flex flex-col pl-4 sm:pl-0 pb-4">
+                        <span className="title-font font-medium text-gray-900 dark:text-gray-100">
+                          {sp3Name}
+                        </span>
+                        <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
+                          {sp3Location}
                         </span>
                       </span>
                     </div>
@@ -159,7 +187,7 @@ export default function EventSection({
                       src={sp1Img}
                       className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
                     />
-                    <span className="flex-grow flex flex-col pl-4 sm:pl-0">
+                    <span className="flex-grow flex flex-col pl-4 sm:pl-0 pb-4">
                       <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                         {sp1Name}
                       </span>
@@ -169,18 +197,35 @@ export default function EventSection({
                     </span>
                   </div>
                   {sp2Img ? (
-                    <div className="inline-flex items-center pl-0 mb-0 md:pl-8">
+                    <div className="inline-flex items-center mb-4 sm:mb-0 pl-0 md:pl-8">
                       <img
                         alt={sp2Name}
                         src={sp2Img}
                         className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
                       />
-                      <span className="flex-grow flex flex-col pl-4 sm:pl-0">
+                      <span className="flex-grow flex flex-col pl-4 sm:pl-0 pb-4">
                         <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                           {sp2Name}
                         </span>
                         <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
                           {sp2Location}
+                        </span>
+                      </span>
+                    </div>
+                  ) : null}
+                  {sp3Name ? (
+                    <div className="inline-flex items-center pl-0 mb-0 md:pl-8">
+                      <img
+                        alt={sp3Name}
+                        src={sp3Img}
+                        className="w-12 h-12 rounded-full sm:hidden flex-shrink-0 object-cover object-center"
+                      />
+                      <span className="flex-grow flex flex-col pl-4 sm:pl-0 pb-4">
+                        <span className="title-font font-medium text-gray-900 dark:text-gray-100">
+                          {sp3Name}
+                        </span>
+                        <span className="text-gray-400 dark:text-gray-200 text-xs tracking-widest mt-0.5 uppercase">
+                          {sp3Location}
                         </span>
                       </span>
                     </div>
@@ -207,7 +252,7 @@ export default function EventSection({
                     className="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg"
                   />
                 </div>
-                {sp2Img ? (
+                {sp3Img ? (
                   <>
                     <div className="relative hidden md:block">
                       <img
@@ -223,7 +268,29 @@ export default function EventSection({
                         className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
                       />
                     </div>
+                    <div className="relative hidden md:block">
+                      <img
+                        src={sp3Img}
+                        alt={sp3Name}
+                        className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                      />
+                    </div>
                   </>
+                ) : sp2Img ? (
+                  <div className="relative hidden md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
+                    <img
+                      src={sp1Img}
+                      alt={sp1Name}
+                      className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                    />
+                    <div className="relative hidden md:block">
+                      <img
+                        src={sp2Img}
+                        alt={sp2Name}
+                        className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                      />
+                    </div>
+                  </div>
                 ) : (
                   <div className="relative hidden md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
                     <img
