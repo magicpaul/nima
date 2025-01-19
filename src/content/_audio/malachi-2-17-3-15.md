@@ -1,7 +1,7 @@
 ---
 title: 'Malachi 2:17 - 3:15'
-subtitle: Haggai
-book: Haggai
+subtitle: Malachi
+book: Malachi
 speaker: Jonathan Landry Cruse
 postDate: 2024-11-05T09:00:00
 image: /img/jonathan-landry-cruse.jpeg

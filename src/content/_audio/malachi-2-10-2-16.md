@@ -1,7 +1,7 @@
 ---
 title: 'Malachi 2:10 - 2:16'
-subtitle: Haggai
-book: Haggai
+subtitle: Malachi
+book: Malachi
 speaker: Jonathan Landry Cruse
 postDate: 2024-11-04T16:00:00
 image: /img/jonathan-landry-cruse.jpeg

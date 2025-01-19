@@ -1,7 +1,7 @@
 ---
 title: 'Malachi 3:16 - 4:5'
-subtitle: Haggai
-book: Haggai
+subtitle: Malachi
+book: Malachi
 speaker: Jonathan Landry Cruse
 postDate: 2024-11-05T16:00:00
 image: /img/jonathan-landry-cruse.jpeg
