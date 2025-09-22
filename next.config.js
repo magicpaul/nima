@@ -10,7 +10,7 @@ module.exports = {
     domains: ['images.unsplash.com'],
   },
   i18n: {
-    locales: ['en-GB'],
-    defaultLocale: 'en-GB',
+    locales: ['en'],
+    defaultLocale: 'en',
   },
 };
