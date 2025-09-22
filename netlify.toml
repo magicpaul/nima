@@ -1,3 +1,6 @@
+command = "yarn build"
+publish = "out"
+
 [[redirects]]
   from = "/*"
   to = "/404.html"

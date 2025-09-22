@@ -9,5 +9,7 @@ module.exports = {
   images: {
     domains: ['images.unsplash.com'],
   },
-  output: 'export',
+  target: 'serverless',
+  distDir: 'out',
+  generateBuildId: async () => 'static-build',
 };
