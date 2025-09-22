@@ -5,9 +5,14 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
   },
 
-  // Note: The structure requires { webpack } from the context object.
-  webpack: (config, { webpack }) => {
-    // This is the essential fix for '__dirname' errors in dependencies
+  webpack: (config, { webpack, isServer }) => {
+    if (isServer) {
+      config.externals.push({
+        'next/dist/compiled/cookie': 'commonjs next/dist/compiled/cookie',
+        'next/dist/compiled/gzip-size': 'commonjs next/dist/compiled/gzip-size',
+      });
+    }
+
     config.plugins.push(
       new webpack.ProvidePlugin({
         __dirname: '__dirname',
@@ -15,7 +20,6 @@ const nextConfig = {
       })
     );
 
-    // Your custom loader
     config.module.rules.push({
       test: /\.md$/,
       loader: 'frontmatter-markdown-loader',
