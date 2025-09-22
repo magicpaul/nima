@@ -3,20 +3,21 @@ title: 'Between Two Worlds'
 subtitle: Connecting the Biblical Word to the Secular World
 category: NIMA 2025
 featured: false
+current: true
 eventDate: November 10 2025
 ticketsLink: https://nima.yapsody.com/event/index/834129/NIMA-20th-Celebration-Monday-Evening-Event
 postDate: 2025-09-22T11:00:00
 location: Glenabbey Church
 image: /img/nima-btw.jpg
 whenText: |
- Monday 10th November 2025, 7.30pm - 9.30pm
+  Monday 10th November 2025, 7.30pm - 9.30pm
 costText: £5
 mapsEmbed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.6236751214624!2d-5.9722305222235414!3d54.68688067270845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861a62f15167c87%3A0xbdaf7fd3f7eba25d!2sGlenabbey%20Church!5e1!3m2!1sen!2suk!4v1758536171689!5m2!1sen!2suk
 directions: |
- Ballycraigy Rd,
- Glengormley, 
- Newtownabbey
- BT36 5ZZ
+  Ballycraigy Rd,
+  Glengormley, 
+  Newtownabbey
+  BT36 5ZZ
 slug: nima-2025-evening-1
 sp1Location: Reformed Theological Seminary
 sp1Img: /img/Duncan_Ligon.jpg
@@ -34,11 +35,13 @@ template: event
 ---
 
 You are warmly invited to join us for two special evenings as part of our 20 year celebrations of the Northern Ireland Ministry Assembly (NIMA) where you will hear:
- 
-Ligon Duncan speaking on The Word of God in a Secular World,
 
-Sinclair Ferguson on The Word of God to a Compromised Church 
+**Ligon Duncan** speaking on The Word of God in a Secular World,
 
-Derek Thomas reflecting on Two Nations Divided by a Common Language
+**Sinclair Ferguson** on The Word of God to a Compromised Church
 
-These evenings are open to anyone from anywhere but since space is limited you need to register your attendance to secure your place using the buttons below. The cost is £5.00. Booking is open, so please book your tickets now:
+**Derek Thomas** reflecting on Two Nations Divided by a Common Language
+
+---
+
+_These evenings are **open to anyone from anywhere** but since space is limited you need to register your attendance to secure your place using the ticket link._
