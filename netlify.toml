@@ -4,6 +4,8 @@
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  PYTHON_VERSION = "3.11" 
+
 
 [[redirects]]
   from = "/*"
