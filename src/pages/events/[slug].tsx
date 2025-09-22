@@ -29,6 +29,7 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
     location,
     ticketsLink,
     featured,
+    current,
     whenText,
     costText,
     mapsEmbed,
@@ -134,7 +135,7 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
           where={location}
           directions={directions}
           map={mapsEmbed}
-          featured={featured}
+          current={current}
         />
         <section className="text-green-900 body-font bg-green bg-opacity-10">
           <div className="container px-4 md:px-8 py-16 mx-auto flex flex-col ">
