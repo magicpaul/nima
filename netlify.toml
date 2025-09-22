@@ -1,6 +1,7 @@
 [build]
   command = "yarn build"
   publish = ".next"
+  environment = { NEXT_DISABLE_NETLIFY_RUNTIME = "1" }
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
