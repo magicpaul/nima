@@ -1,5 +1,6 @@
-import { getAllContentPaths } from './lib/content';
+const { getAllContentPaths } = require('./lib/content');
 
+// --- Fetch Data for exportPathMap ---
 const eventData = getAllContentPaths('_events');
 const audioData = getAllContentPaths('_audio');
 
@@ -12,7 +13,6 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
   },
   webpack: (cfg) => {
-    // Add the rule for frontmatter-markdown-loader
     cfg.module.rules.push({
       test: /\.md$/,
       loader: 'frontmatter-markdown-loader',
@@ -23,15 +23,19 @@ const nextConfig = {
     const paths = {
       ...defaultPathMap,
     };
+
+    // Generate Paths for Events
     eventData.forEach((event) => {
       paths[`/events/${event.slug}`] = {
-        page: '/events/[slug]', // Correct path to your dynamic page file
+        page: '/events/[slug]',
         query: { slug: event.slug },
       };
     });
+
+    // Generate Paths for Audio
     audioData.forEach((item) => {
       paths[`/audio/${item.slug}`] = {
-        page: '/audio/[slug]', // Correct path to your dynamic page file
+        page: '/audio/[slug]',
         query: { slug: item.slug },
       };
     });
@@ -40,4 +44,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
