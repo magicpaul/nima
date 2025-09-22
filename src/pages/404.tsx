@@ -29,10 +29,12 @@ const NotFoundPage: NextPage<Props> = ({ homeContent }) => {
             className="w-32 h-32"
           />
           <h1 className="text-3xl">Uh oh! Something went wrong...</h1>
-          <Link href="/">
-            <a className="px-8 py-3 font-semibold rounded-md bg-green text-white">
+          <Link
+            href="/"
+            className="px-8 py-3 font-semibold rounded-md bg-green text-white">
+            
               Back to homepage
-            </a>
+            
           </Link>
         </div>
       </div>

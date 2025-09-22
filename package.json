@@ -14,6 +14,9 @@
       "pre-commit": "pretty-quick --staged && npm run lint"
     }
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@headlessui/react": "^1.3.0",
     "@heroicons/react": "^1.0.2",
@@ -21,9 +24,9 @@
     "babel-plugin-superjson-next": "^0.3.1",
     "gray-matter": "^4.0.2",
     "netlify-cms-app": "2.12.25",
-    "next": "12.3.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "7.14.0",
     "react-lite-youtube-embed": "^2.3.52",
     "react-lite-yt-embed": "^1.2.7",

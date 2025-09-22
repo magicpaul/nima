@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { CalendarIcon, MapIcon } from '@heroicons/react/outline';
@@ -121,9 +122,9 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
           </div>
         </div>
         <section className="text-green-900 body-font bg-gray-300 bg-opacity-10">
-          <div className="container px-4 md:px-8 py-8 mx-auto flex flex-col">
+          <div className="container px-4 py-8 mx-auto flex flex-col">
             <article
-              className="text-base font-light text-gray dark:text-gray-100 leading-relaxed prose lg:prose-xl mx-auto max-w-none"
+              className="text-base font-light leading-relaxed prose dark:prose-invert lg:prose-xl mx-auto max-w-none"
               dangerouslySetInnerHTML={{ __html: content.html }}
             ></article>
           </div>
