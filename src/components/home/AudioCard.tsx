@@ -16,7 +16,6 @@ const AudioCard: React.FC<Props> = ({
 }): JSX.Element => {
   return (
     <Link href={`/audio/${slug}`} aria-label={title}>
-
       <div className="overflow-hidden relative mx-auto transition ease-in-out delay-150 hover:scale-105 duration-300 bg-white hover:bg-gray-50 dark:hover:bg-gray-600 shadow-lg ring-black/5 rounded-xl flex items-center gap-6 dark:bg-gray-800 dark:highlight-white/5">
         <img
           className="absolute -left-6 w-28 h-28 object-cover rounded-full shadow-lg"
@@ -32,7 +31,6 @@ const AudioCard: React.FC<Props> = ({
           </div>
         </div>
       </div>
-
     </Link>
   );
 };

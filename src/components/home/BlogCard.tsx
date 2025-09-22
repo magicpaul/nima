@@ -5,7 +5,6 @@ export default function BlogCard({ title, image, slug, category, subtitle }) {
   return (
     <article className="flex flex-col bg-white dark:bg-gray-900 shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-2">
       <Link href={`/events/${slug}`} aria-label={title}>
-
         <Image
           alt={title}
           className="object-cover w-full h-52"
@@ -26,7 +25,6 @@ export default function BlogCard({ title, image, slug, category, subtitle }) {
             <span>{subtitle}</span>
           </div>
         </div>
-
       </Link>
     </article>
   );

@@ -31,10 +31,9 @@ const AudioPage: NextPage<Props> = ({ homeContent }) => {
           <h1 className="text-3xl">Audio recordings are coming soon</h1>
           <Link
             href="/"
-            className="px-8 py-3 font-semibold rounded-md bg-green text-white">
-            
-              Back to homepage
-            
+            className="px-8 py-3 font-semibold rounded-md bg-green text-white"
+          >
+            Back to homepage
           </Link>
         </div>
       </div>
