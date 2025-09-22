@@ -5,8 +5,9 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
   },
 
+  // Note: The structure requires { webpack } from the context object.
   webpack: (config, { webpack }) => {
-    // Required patch for internal compilation issues with Node globals
+    // This is the essential fix for '__dirname' errors in dependencies
     config.plugins.push(
       new webpack.ProvidePlugin({
         __dirname: '__dirname',
@@ -14,7 +15,7 @@ const nextConfig = {
       })
     );
 
-    // Custom markdown loader
+    // Your custom loader
     config.module.rules.push({
       test: /\.md$/,
       loader: 'frontmatter-markdown-loader',
