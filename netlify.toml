@@ -1,5 +1,6 @@
-command = "yarn build"
-publish = "out"
+[build]
+  command = "rm -rf .next && yarn build" 
+  publish = "out"
 
 [[redirects]]
   from = "/*"
