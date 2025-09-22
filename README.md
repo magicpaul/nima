@@ -1,3 +1,3 @@
 # NIMA
 
-I'll put soething in here eventually.
+I'll put something in here eventually.
