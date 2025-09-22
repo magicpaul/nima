@@ -8,6 +8,7 @@ const audioData = getAllContentPaths('_audio');
 const nextConfig = {
   distDir: 'out',
   assetPrefix: './',
+  output: 'export',
   cleanDistDir: true,
   images: {
     domains: ['images.unsplash.com'],
