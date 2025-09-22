@@ -4,9 +4,9 @@ const EventDetails: React.FC<{
   where: string;
   directions: string;
   map: string;
-  featured: string;
-}> = ({ when, cost, where, directions, map, featured }) => {
-  if (featured) {
+  current: string;
+}> = ({ when, cost, where, directions, map, current }) => {
+  if (current) {
     return (
       <section className="text-gray-600 body-font relative">
         <div className="container px-4 md:px-8 py-8 mx-auto ">
