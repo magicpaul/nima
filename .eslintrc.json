@@ -15,5 +15,17 @@
   },
   "globals": {
     "React": "writable"
-  }
+  },
+  "overrides": [
+    {
+      // Target all plain JavaScript files
+      "files": ["**/*.js"],
+      "rules": {
+        // Allow the use of 'require()' in plain JS files (like content.js)
+        "@typescript-eslint/no-var-requires": "off",
+        // Allow functions in plain JS files to omit return types
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+      }
+    }
+  ]
 }
