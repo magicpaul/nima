@@ -1,4 +1,4 @@
-const { getAllContentPaths } = require('./lib/content');
+const { getAllContentPaths } = require('./src/lib/content');
 
 // --- Fetch Data for exportPathMap ---
 const eventData = getAllContentPaths('_events');
