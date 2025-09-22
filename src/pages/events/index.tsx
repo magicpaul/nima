@@ -37,7 +37,7 @@ const BlogPage: NextPage<Props> = ({ posts, content }) => {
                     key={post.slug}
                     title={post.title}
                     image={post.image}
-                    subtitle={post.subtitle}
+                    subtitle={post.eventDate}
                     slug={post.slug}
                     category={post.category}
                   />
@@ -56,6 +56,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const posts = getAllPosts([
     'title',
     'subtitle',
+    'eventDate',
     'category',
     'postDate',
     'image',
