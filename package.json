@@ -2,8 +2,9 @@
   "name": "nima",
   "version": "1.0.0",
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next dev",
+    "export": "next export",
     "lint": "eslint --ext .ts,.tsx",
     "lint:fix": "eslint --ext .ts,.tsx --fix",
     "start": "next start"
