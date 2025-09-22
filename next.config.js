@@ -10,5 +10,8 @@ module.exports = {
     domains: ['images.unsplash.com'],
   },
   distDir: 'out',
-  generateBuildId: async () => 'static-build',
+  async exportPathMap(defaultPathMap) {
+    return defaultPathMap;
+  },
+  cleanDistDir: true,
 };
