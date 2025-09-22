@@ -1,15 +1,15 @@
-import { GetStaticProps, NextPage } from 'next';
-import { getAllPosts } from 'lib/audio';
+import { value GetStaticProps, value NextPage } from 'next';
+import { value getAllPosts } from 'lib/audio';
 import Layout from 'components/home/Layout';
 import AudioCard from 'components/home/AudioCard';
 import SEO from 'components/home/SEO';
 import PageHeader from 'components/home/PageHeader';
-import { HomeAttributes } from 'interfaces/home';
-import { AudioAttributes } from 'interfaces/audio';
+import { value HomeAttributes } from 'interfaces/home';
+import { value AudioAttributes } from 'interfaces/audio';
 //import { EventAttributes } from 'interfaces/event';
 import Header from 'components/home/Header';
 import Head from 'next/head';
-import { useEffect, useState } from 'react';
+import { value useEffect, value useState } from 'react';
 
 //import React from 'react';
 

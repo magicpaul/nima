@@ -11,7 +11,24 @@ module.exports = {
   },
   distDir: 'out',
   async exportPathMap(defaultPathMap) {
-    return defaultPathMap;
+    const paths = {
+      ...defaultPathMap, // Keep static pages like '/', '/404', '/contact', etc.
+    };
+    eventData.forEach((event) => {
+      paths[`/events/${event.slug}`] = {
+        page: '/events/[slug]', // Maps to the actual page file in /pages
+        query: { slug: event.slug },
+      };
+    });
+    audioData.forEach((item) => {
+      paths[`/audio/${item.slug}`] = {
+        page: '/audio/[slug]', // Maps to the actual page file in /pages
+        query: { slug: item.slug },
+      };
+    });
+
+    return paths;
   },
+  assetPrefix: './',
   cleanDistDir: true,
 };
