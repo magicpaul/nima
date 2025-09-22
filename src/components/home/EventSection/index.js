@@ -131,10 +131,12 @@ export default function EventSection({
             </div>
             <div className="col-start-1 row-start-4 md:row-start-3 xs:justify-center sm:justify-start">
               <div className="my-8 lg:my-0 px-4 lg:px-0">
-                <Link href={`/events/${slug}`}>
-                  <a className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 lg:py-4 lg:text-lg lg:px-10">
+                <Link
+                  href={`/events/${slug}`}
+                  className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 lg:py-4 lg:text-lg lg:px-10">
+                  
                     Find out more
-                  </a>
+                  
                 </Link>
               </div>
             </div>
@@ -236,10 +238,12 @@ export default function EventSection({
             </div>
             <div className="col-start-1 row-start-4 xs:justify-center sm:justify-start">
               <div className="my-8 sm:my-0 px-4 md:px-0">
-                <Link href={`/events/${slug}`}>
-                  <a className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+                <Link
+                  href={`/events/${slug}`}
+                  className="w-full md:w-2/3 lg:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+                  
                     Find out more
-                  </a>
+                  
                 </Link>
               </div>
             </div>

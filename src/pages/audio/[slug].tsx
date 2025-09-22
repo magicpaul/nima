@@ -71,10 +71,10 @@ const AudioDetailPage: React.FC<{ content: any; homeContent: any }> = ({
         </div>
         <section className="text-green-900 body-font bg-gray-300 bg-opacity-10">
           <div className="container px-4 md:px-8 py-8 mx-auto flex flex-col">
-            <Link href="/audio">
-              <a className="text-green uppercase hover:text-green-700 pb-4">
+            <Link href="/audio" className="text-green uppercase hover:text-green-700 pb-4">
+              
                 &lsaquo; Back
-              </a>
+              
             </Link>
             <iframe
               src={embed}

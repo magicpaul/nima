@@ -10,9 +10,9 @@ const Header = ({ cta_text, cta_url }): JSX.Element => {
       <div className="sm:px-8 px-4 container mx-auto flex flex-wrap justify-between w-full">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block">
           <Link href="/">
-            <a>
-              <img src="/img/nima.png" className="w-12 h-12" alt="nima logo" />
-            </a>
+
+            <img src="/img/nima.png" className="w-12 h-12" alt="nima logo" />
+
           </Link>
           <button
             className="text-white cursor-pointer text-xl leading-none px-0 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -36,24 +36,30 @@ const Header = ({ cta_text, cta_url }): JSX.Element => {
         >
           <ul className="flex flex-col lg:flex-row lg:items-center list-none lg:ml-auto">
             <li className="nav-item">
-              <Link href="/contact/">
-                <a className="px-3 py-2 flex lg:items-center text-s font-bold leading-snug text-white hover:opacity-75">
+              <Link
+                href="/contact/"
+                className="px-3 py-2 flex lg:items-center text-s font-bold leading-snug text-white hover:opacity-75">
+                
                   Contact
-                </a>
+                
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/events/">
-                <a className="px-3 py-2 flex lg:items-center text-s font-bold leading-snug text-white hover:opacity-75">
+              <Link
+                href="/events/"
+                className="px-3 py-2 flex lg:items-center text-s font-bold leading-snug text-white hover:opacity-75">
+                
                   Events
-                </a>
+                
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/audio/">
-                <a className="px-3 py-2 flex items-center text-s font-bold leading-snug text-white hover:opacity-75">
+              <Link
+                href="/audio/"
+                className="px-3 py-2 flex items-center text-s font-bold leading-snug text-white hover:opacity-75">
+                
                   Audio
-                </a>
+                
               </Link>
             </li>
             <NavCtaButton url={cta_url} text={cta_text} />
