@@ -33,9 +33,9 @@ const nextConfig = {
 
     return config;
   },
-  
+
   //use this for local dev
- /*  webpack: (config) => 
+  /*  webpack: (config) => 
       {config.module.rules.push({
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
