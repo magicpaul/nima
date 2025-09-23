@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/legacy/image';
 
-export default function BlogCard({ title, image, slug, category, subtitle }) {
+export default function BlogCard({ title, image, slug, category, eventDate }) {
   return (
     <article className="flex flex-col bg-white dark:bg-gray-900 shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-2">
       <Link href={`/events/${slug}`} aria-label={title}>
@@ -22,7 +22,7 @@ export default function BlogCard({ title, image, slug, category, subtitle }) {
             {title}
           </h3>
           <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-600 dark:text-gray-400">
-            <span>{subtitle}</span>
+            <span>{eventDate}</span>
           </div>
         </div>
       </Link>
