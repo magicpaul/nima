@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from "next/legacy/image";
+/* eslint-disable react/no-unknown-property */
+import Image from 'next/legacy/image';
 import HomeButton from '../HomeButton';
 
 interface Props {

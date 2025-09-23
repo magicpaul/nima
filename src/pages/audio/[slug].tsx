@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -6,7 +7,7 @@ import SEO from 'components/home/SEO';
 import { HomeAttributes } from 'interfaces/home';
 import { AudioAttributes } from 'interfaces/audio';
 import Header from 'components/home/Header';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 interface HomeProps {
   homeContent: { attributes: HomeAttributes };

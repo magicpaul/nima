@@ -8,7 +8,7 @@ import { HomeAttributes } from 'interfaces/home';
 import { EventAttributes } from 'interfaces/event';
 import Header from 'components/home/Header';
 import TicketButton from 'components/home/TicketButton';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 import Speaker from 'components/event/Speaker';
 import EventDetails from 'components/event/EventDetails';
 
