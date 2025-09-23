@@ -7,10 +7,10 @@ team:
     position: Director
     description: Cornhill Belfast
     image: /img/contact-pics/mc.jpeg
-  - name: Lee Campbell
-    position: Pastor
-    description: Strandtown Baptist Church
-    image: /img/contact-pics/lc.jpeg
+  - name: Phil Dunn
+    position: Northern Ireland Representative
+    description: European Mission Fellowship
+    image: /img/contact-pics/pd.jpeg
   - name: John Graham
     position: Assistant Minister
     description: Hill Street Presbyterian Church

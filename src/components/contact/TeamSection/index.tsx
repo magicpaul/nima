@@ -24,13 +24,13 @@ const TeamSection: React.FC<Props> = ({ title, description, team }) => {
                 src={team.image}
               />
               <div className="flex-grow md:pl-4 md:pr-4">
-                <h2 className="title-font font-bold text-xl text-gray-900 dark:text-gray-50">
+                <h2 className="title-font font-bold prose-xl text-gray-900 dark:text-gray-50">
                   {team.name}
                 </h2>
-                <h3 className="text-gray-500 dark:text-gray-400 mb-3">
+                <h3 className="prose-lg text-gray-500 dark:text-gray-400 mb-3 leading-snug">
                   {team.position}
                 </h3>
-                <p className="mb-4 text-gray dark:text-gray-400">
+                <p className="mb-4 prose-sm text-gray dark:text-gray-400 leading-snug">
                   {team.description}
                 </p>
               </div>
