@@ -6,7 +6,7 @@ import SEO from 'components/home/SEO';
 import { HomeAttributes } from 'interfaces/home';
 import { AudioAttributes } from 'interfaces/audio';
 import Header from 'components/home/Header';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 interface HomeProps {
   homeContent: { attributes: HomeAttributes };

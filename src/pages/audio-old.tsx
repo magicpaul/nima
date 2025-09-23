@@ -7,7 +7,7 @@ import { HomeAttributes } from 'interfaces/home';
 import Header from 'components/home/Header';
 import Footer from 'components/home/Footer';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 interface Props {
   homeContent: { attributes: HomeAttributes };
