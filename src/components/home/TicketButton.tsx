@@ -26,7 +26,8 @@ const TicketButton: React.FC<TicketButtonProps> = ({
     return null;
   }
 
-  const secondaryWidthClass = secondaryLinks.length === 2 ? 'w-1/2' : 'w-full';
+  const secondaryWidthClass =
+    secondaryLinks.length === 2 ? 'md:w-1/2' : 'md:w-full';
 
   return (
     <div className="flex flex-col mb-8 sm:mb-0 px-4 md:pr-4 md:pl-0 sm:mt-12 space-y-4 md:w-3/4">
@@ -40,12 +41,12 @@ const TicketButton: React.FC<TicketButtonProps> = ({
       )}
 
       {secondaryLinks.length > 0 && (
-        <div className="flex flex-row space-x-4">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-x-4 md:space-y-0">
           {secondaryLinks.map((item, index) => (
             <a
               key={index}
               href={item.url}
-              className={`${secondaryWidthClass} px-8 py-3 border border-transparent text-base font-medium rounded-md text-center text-white bg-gray hover:bg-gray-900 md:py-4 md:text-lg md:px-10`}
+              className={`w-full ${secondaryWidthClass} px-8 py-3 border border-transparent text-base font-medium rounded-md text-center text-white bg-gray hover:bg-gray-900 md:py-4 md:text-lg md:px-10`}
             >
               {item.label}
             </a>
