@@ -108,7 +108,14 @@ const EventDetailPage: React.FC<{ content: any; homeContent: any }> = ({
                     </div>
                   </div>
                 </div>
-                <TicketButton link={ticketsLink} link2= {ticketsLink2} link3={ticketsLink3} label={ticketsLinkLabel} label2={ticketsLinkLabel2} label3={ticketsLinkLabel3} />
+                <TicketButton
+                  link={ticketsLink}
+                  link2={ticketsLink2}
+                  link3={ticketsLink3}
+                  label={ticketsLinkLabel}
+                  label2={ticketsLinkLabel2}
+                  label3={ticketsLinkLabel3}
+                />
               </main>
             </div>
           </div>

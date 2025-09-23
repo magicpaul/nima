@@ -9,19 +9,19 @@ interface TicketButtonProps {
   label3?: string;
 }
 
-const TicketButton: React.FC<TicketButtonProps> = ({ 
-  link, 
-  link2, 
-  link3, 
-  label = 'Book Tickets', 
-  label2 = 'Book Tickets 2', 
-  label3 = 'Book Tickets 3' 
+const TicketButton: React.FC<TicketButtonProps> = ({
+  link,
+  link2,
+  link3,
+  label = 'Book Tickets',
+  label2 = 'Book Tickets 2',
+  label3 = 'Book Tickets 3',
 }) => {
   const secondaryLinks = [
     { url: link2, label: label2 },
     { url: link3, label: label3 },
   ].filter((item) => item.url);
-  
+
   if (!link && secondaryLinks.length === 0) {
     return null;
   }
