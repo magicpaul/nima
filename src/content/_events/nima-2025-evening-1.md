@@ -12,7 +12,7 @@ image: /img/nima-btw.jpg
 whenText: |
   Monday 10th November 2025, 7.30pm - 9.30pm
 costText: £5
-mapsEmbed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.6236751214624!2d-5.9722305222235414!3d54.68688067270845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861a62f15167c87%3A0xbdaf7fd3f7eba25d!2sGlenabbey%20Church!5e1!3m2!1sen!2suk!4v1758536171689!5m2!1sen!2suk
+mapsEmbed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1120.6224879205363!2d-5.970539156395223!3d54.68684179344851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861a62f15167c87%3A0xbdaf7fd3f7eba25d!2sGlenabbey%20Church!5e0!3m2!1sen!2suk!4v1758615639584!5m2!1sen!2suk
 directions: |
   Ballycraigy Rd,
   Glengormley, 

@@ -40,6 +40,7 @@ const BlogPage: NextPage<Props> = ({ posts, content }) => {
                     eventDate={post.eventDate}
                     slug={post.slug}
                     category={post.category}
+                    subtitle={post.subtitle}
                   />
                 ))}
               </div>
@@ -60,6 +61,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'postDate',
     'image',
     'slug',
+    'subtitle',
   ]);
 
   return { props: { content: content.default, posts } };

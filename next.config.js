@@ -5,6 +5,7 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
   },
 
+  //use this for live server
   webpack: (config, { isServer, webpack }) => {
     if (!isServer) {
       config.resolve.fallback = {
@@ -32,6 +33,16 @@ const nextConfig = {
 
     return config;
   },
+  
+  //use this for local dev
+ /*  webpack: (config) => 
+      {config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+      });
+
+    return config;
+  }, */
 };
 
 module.exports = nextConfig;
