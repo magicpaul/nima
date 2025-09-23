@@ -21,4 +21,5 @@ export interface post {
   sp3Location: string;
   video: string;
   featured: string;
+  live: string;
 }

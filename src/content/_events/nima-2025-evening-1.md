@@ -2,10 +2,11 @@
 title: 'Between Two Worlds'
 subtitle: Connecting the Biblical Word to the Secular World
 category: NIMA 2025
-featured: true
+live: true
+featured: false
 eventDate: November 10 2025
 ticketsLink: https://nima.yapsody.com/event/index/834129/NIMA-20th-Celebration-Monday-Evening-Event
-postDate: 2025-09-22T11:00:00
+postDate: 2025-09-21T11:00:00
 location: Glenabbey Church
 image: /img/nima-btw.jpg
 whenText: |
