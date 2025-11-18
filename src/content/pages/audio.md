@@ -6,14 +6,17 @@ speakers:
   - name: Conrad Mbewe
   - name: David Gibson
   - name: Dan Doriani
+  - name: Derek Thomas
   - name: Garry Williams
   - name: Joe Barnard
   - name: Jonathan Landry Cruse
   - name: Jonty Allcock
   - name: Jonty Rhodes
   - name: Lewis Allen
+  - name: Ligon Duncan
   - name: Robin Sydserff
   - name: Rupert Bentley-Taylor
+  - name: Sinclair Ferguson
   - name: Zack Eswine
   - name: Other
 books:
@@ -23,9 +26,10 @@ books:
   - name: Ecclesiastes
   - name: Haggai
   - name: James
+  - name: John
   - name: Job
+  - name: Jude
   - name: Malachi
   - name: 2 Peter
-  - name: John
   - name: Other
 ---

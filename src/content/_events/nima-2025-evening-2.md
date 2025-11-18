@@ -2,10 +2,10 @@
 title: 'Between Two Worlds'
 subtitle: Connecting the Biblical Word to the Secular World
 category: NIMA 2025
-live: true
+live: false
 featured: false
 eventDate: November 11 2025
-ticketsLink: https://nima.yapsody.com/event/index/834133/NIMA-20th-Celebration-Tuesday-Evening-Event
+ticketsLink: null
 postDate: 2025-09-21T11:30:00
 location: First Portadown Presbyterian Church
 image: /img/nima-btw.jpg
