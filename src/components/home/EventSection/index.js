@@ -247,14 +247,14 @@ export default function EventSection({
             </div>
             <div className="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-4">
               <div className="w-full grid grid-cols-2 grid-rows-2 gap-2">
-                <div className="relative col-span-2 row-span-2 md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 sm:mr-2 md:mr-0">
+                <div className="relative md:hidden col-span-2 row-span-2 md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 sm:mr-2 md:mr-0">
                   <img
                     src={image}
                     alt={title}
                     className="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg"
                   />
                 </div>
-                {sp3Img ? (
+                {/*                 {sp3Img ? (
                   <>
                     <div className="relative hidden md:block">
                       <img
@@ -278,23 +278,26 @@ export default function EventSection({
                       />
                     </div>
                   </>
-                ) : sp2Img ? (
-                  <div className="relative hidden md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
-                    <img
-                      src={sp1Img}
-                      alt={sp1Name}
-                      className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
-                    />
-                    <div className="relative hidden md:block">
+                ) :  */}
+                {sp2Img ? (
+                  <>
+                    <div className="relative hidden md:col-span-1 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
+                      <img
+                        src={sp1Img}
+                        alt={sp1Name}
+                        className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
+                      />
+                    </div>
+                    <div className="relative hidden md:col-span-1 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
                       <img
                         src={sp2Img}
                         alt={sp2Name}
                         className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100"
                       />
                     </div>
-                  </div>
+                  </>
                 ) : (
-                  <div className="relative hidden md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2 md:block">
+                  <div className="relative md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-2">
                     <img
                       src={sp1Img}
                       alt={sp1Name}

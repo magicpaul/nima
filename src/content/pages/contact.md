@@ -12,13 +12,9 @@ team:
     description: European Mission Fellowship
     image: /img/contact-pics/pd.jpeg
   - name: John Graham
-    position: Assistant Minister
+    position: Associate Minister
     description: Hill Street Presbyterian Church
     image: /img/contact-pics/jg.jpeg
-  - name: Phil Howe
-    position: Discipleship Pastor
-    description: Greenisland Baptist Church
-    image: /img/contact-pics/ph.jpeg
   - name: David Johnston
     position: Minister Emeritus
     description: Hamilton Road Presbyterian Church
@@ -31,4 +27,8 @@ team:
     description: Knockbreda Parish Church
     position: Rector
     image: /img/bp.jpeg
+  - name: Ross Mungavin
+    position: Rector
+    description: St. Elizabeth's Dundonald
+    image: /img/contact-pics/rm.jpg
 ---
